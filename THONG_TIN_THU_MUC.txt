@@ -1,0 +1,35 @@
+================================================================================
+📂 TRỌN BỘ TRANG WEB THIẾT KẾ & TÀI LIỆU PORTFOLIO - NGUYỄN TUẤN ĐẠT
+Senior Creative Designer & Visual Marketing Lead
+================================================================================
+
+1. TRANG WEB PORTFOLIO CHUYÊN NGHIỆP:
+   - 1_MO_TRANG_WEB_PORTFOLIO.bat : Bấm đúp để mở ngay website trên trình duyệt.
+   - index.html                   : Tệp mã nguồn HTML website.
+   - style.css                    : Bảng màu, typography và animation CSS.
+   - script.js                    : Hiệu ứng động, bộ lọc danh mục và đa ngôn ngữ VI/EN.
+
+2. CV VÀ HỒ SƠ NĂNG LỰC:
+   - CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_VI.pdf : CV 1 trang Tiếng Việt chuẩn in ấn.
+   - CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_EN.pdf : CV 1 trang Tiếng Anh quốc tế.
+   - CV_NguyenTuanDat_MarketingLeader.pdf                 : CV Marketing Leader.
+   - Portfolio_NguyenTuanDat_SeniorGraphicDesigner_VI.docx : Bản Word Portfolio Tiếng Việt.
+   - Portfolio_NguyenTuanDat_SeniorGraphicDesigner_EN.docx : Bản Word Portfolio Tiếng Anh.
+   - hồ sơ năng lực công ty thang máy thiên đạt (Autosaved).pdf : Brochure năng lực công ty.
+
+3. HÌNH ẢNH THIẾT KẾ, BANNER & MOCKUP:
+   - ad_*.jpg                      : Bộ Ad Creatives sản phẩm (MeeA, Bbia, Kalpen, Weilaiya, NanoApo).
+   - banner *.jpg, backdrop 2.jpg  : Banners sự kiện & truyền thông.
+   - POSTER *.jpg                  : Poster tài trợ & sự kiện.
+   - AK HÀN QUỐC.png, Nhựa AK*.png : Bộ nhận diện thương hiệu & bao bì sản phẩm.
+   - Gemini_Generated_Image_*.png  : Bộ ảnh concept AI chất lượng cao.
+   - ChatGPT Image *.png           : Hình ảnh thiết kế AI.
+   - Thư mục 'Thiết kế truyền thông sức khỏa sinh sản' : Bộ ảnh chiến dịch y tế / sức khỏe.
+
+4. CÔNG CỤ & CODE TỰ ĐỘNG HÓA PYTHON:
+   - generate_word_portfolios.py       : Tự động xuất file Word Portfolio DOCX có ảnh & bảng biểu.
+   - generate_one_page_cv_pdf.py       : Tự động xuất file PDF CV 1 trang vector siêu nét.
+   - render_professional_ai_mockups.py : Tự động đóng khung mockup sản phẩm 3D.
+   - generate_parallel_ai_images.py    : Tạo ảnh AI song song.
+
+================================================================================

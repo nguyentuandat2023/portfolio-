@@ -1,0 +1,15 @@
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+
+# Python cache & temporary test files
+__pycache__/
+*.py[cod]
+*$py.class
+test_fpdf.pdf
+test_pollinations.png
