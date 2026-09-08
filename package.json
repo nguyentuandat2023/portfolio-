@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-nguyen-tuan-dat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio Nguyễn Tuấn Đạt - Senior Creative Designer & Visual Marketing Lead",
+  "scripts": {
+    "build": "echo 'Static site ready for deployment'"
+  },
+  "keywords": ["portfolio", "designer", "creative", "web3", "cro"]
+}
