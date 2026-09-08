@@ -926,8 +926,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Poster Ưu Đãi Thiết Bị MaxHub & Đồng Hành Giải Cờ Vua TP.HCM',
       badge: 'CSR & Sự Kiện Thể Thao • Thiết Bị Hội Nghị',
       images: [
-        'poster_maxhub_covua_2022.webp',
-        'POSTER TÀI TRỢ CHƯƠNG TRÌNH CỜ VUA 2 copy.webp'
+        'poster_maxhub_covua_2022.webp'
       ],
       problem: 'Doanh nghiệp cần quảng bá chương trình ưu đãi 50% thiết bị hội nghị thông minh MaxHub (UC W10, W21) kết hợp truyền thông tài trợ Giải vô địch Cờ vua học sinh - sinh viên TP.HCM 2022 với phong cách công nghệ cao, đáng tin cậy.',
       solution: 'Thiết kế poster phối cảnh 3D phòng họp sang trọng, nổi bật hai mẫu camera hội nghị MaxHub trên bục podium phát sáng. Bảng giá so sánh trực quan, tích hợp trọn vẹn thông tin tài trợ cờ vua, mã QR liên hệ và bộ nhận diện Tia Sáng Telecom.',
@@ -938,9 +937,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Bộ Banner Siêu Khuyến Mãi Thiết Bị Hội Nghị & Màn Hình Tương Tác MaxHub',
       badge: 'Promotion & Sales Campaigns • TS Telecom',
       images: [
-        'banner_khuyenmai_maxhub_tiasang.webp',
-        'banner khuyến mãi 2 - final .webp',
-        'backdrop 2.webp'
+        'banner_khuyenmai_maxhub_tiasang.webp'
       ],
       problem: 'Chiến dịch siêu khuyến mãi giảm đến 50% toàn bộ hệ sinh thái thiết bị hội nghị và màn hình tương tác thông minh đòi hỏi một Key Visual banner bề thế, sang trọng, thể hiện đầy đủ 5 dòng sản phẩm chủ lực mà không bị rối mắt.',
       solution: 'Bố cục thiết kế không gian phòng họp tương lai nhìn ra thành phố hiện đại. Màn hình tương tác L65TA làm chủ đạo góc phải, hàng showcase 5 thiết bị (L65TA, UC W10, WT01A, WB01, UC S10) với giá gốc gạch ngang và giá sốc màu đỏ rực rỡ, tích hợp badge bảo hành 12 tháng và hỗ trợ 24/7.',
