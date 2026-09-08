@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nguyễn Tuấn Đạt | Marketing Leader & AI Automation Specialist</title>
-  <meta name="description" content="Portfolio chuyên nghiệp của Nguyễn Tuấn Đạt - 10+ năm kinh nghiệm Marketing Leader B2B, Creative Design, Tự động hóa AI và 30+ Live Web Applications.">
+  <title>Nguyễn Tuấn Đạt | Senior Creative Designer & Visual Marketing Lead (AI-Driven)</title>
+  <meta name="description" content="Portfolio chuyên nghiệp của Nguyễn Tuấn Đạt - 10+ năm kinh nghiệm Senior Creative Designer, Visual Marketing Lead, Tối ưu CRO, AI Automation và 28+ Live Web Applications.">
   <meta name="author" content="Nguyễn Tuấn Đạt">
   
   <!-- Open Graph / Facebook / Zalo Preview -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Nguyễn Tuấn Đạt | Marketing Leader & AI Automation Specialist">
-  <meta property="og:description" content="Khám phá Portfolio với 10+ năm kinh nghiệm Marketing B2B, 30+ Live Web Apps, 3 Ebook AI và Case Studies thực tế.">
+  <meta property="og:title" content="Nguyễn Tuấn Đạt | Senior Creative Designer & Visual Marketing Lead (AI-Driven)">
+  <meta property="og:description" content="Khám phá Portfolio 10+ năm kinh nghiệm Visual Design, Company Profile B2B, Ad Creatives CRO, 28+ Web Apps và 3 Ebook AI thực chiến.">
   <meta property="og:site_name" content="Portfolio Nguyễn Tuấn Đạt">
   <meta name="theme-color" content="#2563eb">
   
@@ -27,51 +27,80 @@
 </head>
 <body>
 
+  <!-- Top Reading Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
   <!-- Ambient Background Glows -->
   <div class="glow-bg glow-1"></div>
   <div class="glow-bg glow-2"></div>
   <div class="glow-bg glow-3"></div>
 
-  <!-- Navigation Bar -->
+  <!-- Navigation Bar (2-Row Modern Header) -->
   <header class="navbar" id="navbar">
-    <div class="nav-container">
-      <a href="#hero" class="brand-logo">
-        <span class="logo-accent">TD</span><span class="logo-dot">.</span>
-        <span class="brand-name">Tuấn Đạt</span>
-      </a>
+    <!-- Dòng 1: Thương hiệu, Trạng thái & Các Nút Hành Động -->
+    <div class="nav-top-bar">
+      <div class="nav-top-container">
+        <div class="brand-wrapper">
+          <a href="#hero" class="brand-logo">
+            <span class="logo-accent">TD</span><span class="logo-dot">.</span>
+            <span class="brand-name">Tuấn Đạt</span>
+          </a>
+          <div class="nav-status-pill" onclick="openRecruiterModal()" title="Nhấp để xem nhanh tóm tắt cho Nhà Tuyển Dụng">
+            <span class="pulse-dot green"></span>
+            <span class="status-text" id="navStatusText">Open to Work</span>
+          </div>
+        </div>
 
-      <nav class="nav-menu" id="navMenu">
-        <a href="#about" class="nav-link" id="navAbout"><i class="fa-regular fa-user"></i> <span>Giới thiệu</span></a>
-        <a href="#skills" class="nav-link" id="navSkills"><i class="fa-solid fa-layer-group"></i> <span>Năng lực</span></a>
-        <a href="#web-apps" class="nav-link highlight-link" id="navWebApps"><i class="fa-solid fa-globe"></i> <span>28 Web Apps</span></a>
-        <a href="#portfolio" class="nav-link" id="navPortfolio"><i class="fa-solid fa-briefcase"></i> <span>Dự án Media</span></a>
-        <a href="#services" class="nav-link" id="navServices"><i class="fa-solid fa-gem"></i> <span>Gói Dịch Vụ</span></a>
-        <a href="#workflow" class="nav-link" id="navWorkflow"><i class="fa-solid fa-diagram-project"></i> <span>Quy Trình</span></a>
-        <a href="#testimonials" class="nav-link" id="navTestimonials"><i class="fa-solid fa-comments"></i> <span>Đánh Giá</span></a>
-        <a href="#ai-innovations" class="nav-link" id="navAi"><i class="fa-solid fa-robot"></i> <span>AI & Ebook</span></a>
-        <a href="#experience" class="nav-link" id="navExp"><i class="fa-solid fa-timeline"></i> <span>Kinh nghiệm</span></a>
-        <a href="#why-me" class="nav-link" id="navWhyMe"><i class="fa-solid fa-star"></i> <span>Thế mạnh</span></a>
-        <a href="#faq" class="nav-link" id="navFaq"><i class="fa-solid fa-circle-question"></i> <span>Hỏi Đáp</span></a>
-        <a href="#contact" class="nav-link" id="navContact"><i class="fa-solid fa-paper-plane"></i> <span>Liên hệ</span></a>
-      </nav>
+        <div class="nav-actions">
+          <button class="btn btn-sm btn-recruiter-nav" id="navRecruiterBtn" onclick="openRecruiterModal()" title="Xem nhanh thông tin dành cho Nhà Tuyển Dụng & Headhunter">
+            <i class="fa-solid fa-bolt"></i> <span id="navRecruiterText">Dành Cho Tuyển Dụng</span>
+          </button>
+          <button class="lang-toggle-btn" id="langToggle" title="Chuyển đổi ngôn ngữ Tiếng Việt / English" aria-label="Toggle Language">
+            <span class="lang-flag" id="langFlag">🇻🇳</span>
+            <span class="lang-text" id="langText">VI</span>
+          </button>
+          <button class="theme-toggle" id="themeToggle" title="Chuyển đổi giao diện sáng/tối" aria-label="Toggle Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <a href="CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_VI.pdf" target="_blank" download class="btn btn-sm btn-outline nav-cv-btn" id="navCvBtn">
+            <i class="fa-solid fa-file-arrow-down"></i> <span id="navCvText">Tải CV 1 Trang</span>
+          </a>
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Menu Mobile">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
 
-      <div class="nav-actions">
-        <button class="lang-toggle-btn" id="langToggle" title="Chuyển đổi ngôn ngữ Tiếng Việt / English" aria-label="Toggle Language">
-          <span class="lang-flag" id="langFlag">🇻🇳</span>
-          <span class="lang-text" id="langText">VI</span>
-        </button>
-        <button class="theme-toggle" id="themeToggle" title="Chuyển đổi giao diện sáng/tối" aria-label="Toggle Theme">
-          <i class="fa-solid fa-moon"></i>
-        </button>
-        <a href="CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_VI.pdf" target="_blank" download class="btn btn-sm btn-outline nav-cv-btn" id="navCvBtn">
-          <i class="fa-solid fa-file-arrow-down"></i> <span id="navCvText">Tải CV 1 Trang</span>
-        </a>
-        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu Mobile">
-          <i class="fa-solid fa-bars"></i>
-        </button>
+    <!-- Dòng 2: Thanh Điều Hướng Menu 2 Hàng Thoáng & Dễ Nhìn -->
+    <div class="nav-bottom-bar">
+      <div class="nav-bottom-container">
+        <nav class="nav-menu" id="navMenu">
+          <!-- Hàng 1: Năng Lực Cốt Lõi, Web Apps & Dịch Vụ -->
+          <div class="nav-menu-row nav-row-1">
+            <a href="#about" class="nav-link" id="navAbout"><i class="fa-regular fa-user"></i> <span>Giới thiệu</span></a>
+            <a href="#skills" class="nav-link" id="navSkills"><i class="fa-solid fa-layer-group"></i> <span>Năng lực</span></a>
+            <a href="#web-apps" class="nav-link highlight-link" id="navWebApps"><i class="fa-solid fa-globe"></i> <span>28 Web Apps</span></a>
+            <a href="#portfolio" class="nav-link" id="navPortfolio"><i class="fa-solid fa-briefcase"></i> <span>Dự án Media</span></a>
+            <a href="#services" class="nav-link" id="navServices"><i class="fa-solid fa-gem"></i> <span>Gói Dịch Vụ</span></a>
+            <a href="#workflow" class="nav-link" id="navWorkflow"><i class="fa-solid fa-diagram-project"></i> <span>Quy Trình</span></a>
+          </div>
+          <!-- Hàng 2: Đánh Giá, AI, Kinh Nghiệm & Liên Hệ -->
+          <div class="nav-menu-row nav-row-2">
+            <a href="#testimonials" class="nav-link" id="navTestimonials"><i class="fa-solid fa-comments"></i> <span>Đánh Giá</span></a>
+            <a href="#ai-innovations" class="nav-link" id="navAi"><i class="fa-solid fa-robot"></i> <span>AI & Ebook</span></a>
+            <a href="#experience" class="nav-link" id="navExp"><i class="fa-solid fa-timeline"></i> <span>Kinh nghiệm</span></a>
+            <a href="#why-me" class="nav-link" id="navWhyMe"><i class="fa-solid fa-star"></i> <span>Thế mạnh</span></a>
+            <a href="#faq" class="nav-link" id="navFaq"><i class="fa-solid fa-circle-question"></i> <span>Hỏi Đáp</span></a>
+            <a href="#contact" class="nav-link" id="navContact"><i class="fa-solid fa-paper-plane"></i> <span>Liên hệ</span></a>
+          </div>
+        </nav>
       </div>
     </div>
   </header>
+  
+  <!-- Mobile Navigation Backdrop Overlay -->
+  <div class="nav-backdrop" id="navBackdrop"></div>
 
   <main>
     <!-- HERO SECTION -->
@@ -97,6 +126,9 @@
           </p>
 
           <div class="hero-buttons">
+            <button type="button" class="btn btn-recruiter-hero" id="heroRecruiterBtn" onclick="openRecruiterModal()" title="Xem nhanh thông tin dành riêng cho Nhà Tuyển Dụng">
+              <i class="fa-solid fa-bolt"></i> <span id="heroRecruiterText">Dành Cho Tuyển Dụng (30s Brief)</span>
+            </button>
             <a href="#portfolio" class="btn btn-primary" id="heroBtn1">
               <i class="fa-solid fa-briefcase"></i> <span>Xem Dự Án Thiết Kế</span>
             </a>
@@ -285,6 +317,52 @@
               Thế mạnh đặc biệt trong việc “thấu hiểu tính năng kỹ thuật phức tạp” của các sản phẩm SaaS & AI Tech 
               để chuyển hóa thành <strong>thông điệp hình ảnh rõ ràng, giàu cảm xúc và kích thích đăng ký sử dụng</strong>.
             </p>
+          </div>
+        </div>
+
+        <!-- EDUCATION, CERTIFICATIONS & WORKING LANGUAGES -->
+        <div class="education-cert-container">
+          <div class="edu-cert-header">
+            <span class="edu-cert-badge"><i class="fa-solid fa-graduation-cap"></i> Học Vấn & Năng Lực Quốc Tế</span>
+            <h3 id="eduCertTitle">Bằng Cấp, Chứng Nhận Chuyên Ngành & Trình Độ Ngoại Ngữ</h3>
+            <p id="eduCertSubtitle">Hồ sơ năng lực được bảo chứng qua đào tạo bài bản, chứng chỉ chuyên môn và kinh nghiệm thực chiến đa ngành</p>
+          </div>
+          <div class="edu-cert-grid">
+            <div class="edu-cert-card">
+              <div class="ecc-icon"><i class="fa-solid fa-user-graduate"></i></div>
+              <div class="ecc-content">
+                <span class="ecc-tag">Trình Độ Học Vấn</span>
+                <h4 id="ecc1Title">Cử Nhân & Đào Tạo Đồ Họa Chuyên Sâu</h4>
+                <p id="ecc1Desc">Nền tảng kiến thức bài bản về Nguyên lý thị giác, Màu sắc thương hiệu, Bố cục Typography & Kỹ thuật chế bản in ấn công nghiệp (CMYK 300DPI Print-Ready).</p>
+              </div>
+            </div>
+
+            <div class="edu-cert-card">
+              <div class="ecc-icon"><i class="fa-solid fa-award"></i></div>
+              <div class="ecc-content">
+                <span class="ecc-tag">Chứng Chỉ Chuyên Ngành</span>
+                <h4 id="ecc2Title">Digital Marketing & Tối Ưu Chuyển Đổi (CRO)</h4>
+                <p id="ecc2Desc">Chứng nhận chuyên sâu về Quản trị chiến dịch Performance, Facebook Ads, Google Search & Display, Tối ưu phễu chuyển đổi Landing Page & UI/UX.</p>
+              </div>
+            </div>
+
+            <div class="edu-cert-card">
+              <div class="ecc-icon"><i class="fa-solid fa-robot"></i></div>
+              <div class="ecc-content">
+                <span class="ecc-tag">Kỹ Năng Đột Phá AI</span>
+                <h4 id="ecc3Title">Prompt Engineering & AI Automation Specialist</h4>
+                <p id="ecc3Desc">Tác giả 3 Ebook ứng dụng AI (ChatGPT, Gemini, Midjourney) trong sáng tạo nội dung & tự động hóa quy trình sản xuất ấn phẩm tốc độ cao x5 lần.</p>
+              </div>
+            </div>
+
+            <div class="edu-cert-card">
+              <div class="ecc-icon"><i class="fa-solid fa-earth-americas"></i></div>
+              <div class="ecc-content">
+                <span class="ecc-tag">Ngoại Ngữ Làm Việc</span>
+                <h4 id="ecc4Title">Professional Working English (Thị Trường Global)</h4>
+                <p id="ecc4Desc">Khả năng đọc hiểu tài liệu chuyên môn, nghiên cứu insight khách hàng phương Tây (US, UK, AU) và làm việc trực tiếp với Marketer, Product Owner quốc tế.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1024,6 +1102,8 @@
         <!-- Filter Controls -->
         <div class="portfolio-filter-wrapper">
           <button class="filter-btn active" data-filter="all">Tất cả dự án</button>
+          <button class="filter-btn" data-filter="yacht">🛥️ Du Thuyền & Hàng Hải (TVD)</button>
+          <button class="filter-btn" data-filter="profile">📑 Profile & Brochure B2B</button>
           <button class="filter-btn" data-filter="ecommerce">💄 Mỹ Phẩm & FMCG Ads</button>
           <button class="filter-btn" data-filter="health">🏥 Truyền thông Y Tế (Galant)</button>
           <button class="filter-btn" data-filter="b2b">🏭 Thương hiệu & B2B Industry</button>
@@ -1037,7 +1117,7 @@
           <!-- Project: MEEA Premium Trendy -->
           <div class="project-card" data-category="ecommerce" data-id="meea-trendy">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('meea-trendy', 0)">
-              <img src="ad_meea_trendy_cream.jpg" alt="MEEA Premium Kem Dưỡng Trendy Tím" class="card-thumb" loading="lazy">
+              <img src="ad_meea_trendy_cream.thumb.webp" alt="MEEA Premium Kem Dưỡng Trendy Tím" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('meea-trendy', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Ảnh Đầy Đủ</span>
@@ -1062,7 +1142,7 @@
           <!-- Project: Bbia Last Velvet Tint -->
           <div class="project-card" data-category="ecommerce" data-id="bbia-guardian">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('bbia-guardian', 0)">
-              <img src="ad_bbia_velvet_tint.jpg" alt="Son Kem Lì Bbia Last Velvet Tint #01 Đỏ Gạch" class="card-thumb" loading="lazy">
+              <img src="ad_bbia_velvet_tint.thumb.webp" alt="Son Kem Lì Bbia Last Velvet Tint #01 Đỏ Gạch" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('bbia-guardian', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Ảnh Đầy Đủ</span>
@@ -1087,7 +1167,7 @@
           <!-- Project: Weilaiya Rose Shower Gel -->
           <div class="project-card" data-category="ecommerce" data-id="weilaiya-guardian">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('weilaiya-guardian', 0)">
-              <img src="ad_weilaiya_shower_gel.jpg" alt="Sữa Tắm Nước Hoa Weilaiya Tinh Chất Hoa Hồng" class="card-thumb" loading="lazy">
+              <img src="ad_weilaiya_shower_gel.thumb.webp" alt="Sữa Tắm Nước Hoa Weilaiya Tinh Chất Hoa Hồng" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('weilaiya-guardian', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Ảnh Đầy Đủ</span>
@@ -1112,7 +1192,7 @@
           <!-- Project: Nano APO Paint -->
           <div class="project-card" data-category="b2b" data-id="nanoapo-paint">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('nanoapo-paint', 0)">
-              <img src="ad_nanoapo_paint_uuviet.jpg" alt="Sơn Ngoại Thất Diamond Nano Nano APO" class="card-thumb" loading="lazy">
+              <img src="ad_nanoapo_paint_uuviet.thumb.webp" alt="Sơn Ngoại Thất Diamond Nano Nano APO" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('nanoapo-paint', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Ảnh Đầy Đủ</span>
@@ -1137,7 +1217,7 @@
           <!-- Project: Kalpen Inox 304 Cookware -->
           <div class="project-card" data-category="b2b" data-id="kalpen-cookware">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('kalpen-cookware', 0)">
-              <img src="ad_kalpen_inox304_uuviet.jpg" alt="Nồi Inox 304 Kalpen Tiêu Chuẩn Đức" class="card-thumb" loading="lazy">
+              <img src="ad_kalpen_inox304_uuviet.thumb.webp" alt="Nồi Inox 304 Kalpen Tiêu Chuẩn Đức" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('kalpen-cookware', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Ảnh Đầy Đủ</span>
@@ -1162,7 +1242,7 @@
           <!-- Project 1: Galant Campaign -->
           <div class="project-card" data-category="health" data-id="galant-series">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('galant-series', 0)">
-              <img src="Thiết kế truyền thông sức khỏa sinh sản/Galant-01.jpg" alt="Chiến Dịch Truyền Thông Sức Khỏe Sinh Sản - Galant Clinic" class="card-thumb" loading="lazy">
+              <img src="Thiết kế truyền thông sức khỏa sinh sản/Galant-01.thumb.webp" alt="Chiến Dịch Truyền Thông Sức Khỏe Sinh Sản - Galant Clinic" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem trọn bộ ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('galant-series', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ Ảnh HD</span>
@@ -1185,9 +1265,9 @@
           </div>
 
           <!-- Project 2: Tân Viễn Đông / Composite B2B -->
-          <div class="project-card" data-category="b2b" data-id="tan-vien-dong">
+          <div class="project-card" data-category="b2b yacht" data-id="tan-vien-dong">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('tan-vien-dong', 0)">
-              <img src="AK HÀN QUỐC.png" alt="Nhựa AK Hàn Quốc & Tân Viễn Đông B2B" class="card-thumb" loading="lazy">
+              <img src="AK HÀN QUỐC.thumb.webp" alt="Nhựa AK Hàn Quốc & Tân Viễn Đông B2B" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem trọn bộ ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('tan-vien-dong', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ Ảnh HD</span>
@@ -1210,9 +1290,9 @@
           </div>
 
           <!-- Project 3: Hồ Sơ Năng Lực Thang Máy Thiên Đạt -->
-          <div class="project-card" data-category="b2b" data-id="thien-dat-elevator">
+          <div class="project-card" data-category="b2b profile" data-id="thien-dat-elevator">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('thien-dat-elevator', 0)">
-              <img src="Nhựa AK Hàn Quốc (2).png" alt="Hồ sơ năng lực Thang Máy Thiên Đạt" class="card-thumb" loading="lazy">
+              <img src="profile/previews/thien_dat_p1.thumb.webp" alt="Hồ sơ năng lực Thang Máy Thiên Đạt" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('thien-dat-elevator', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Ảnh Đầy Đủ</span>
@@ -1220,9 +1300,12 @@
                 <button class="card-action-btn btn-view-case" title="Xem chi tiết Case Study dự án" onclick="event.stopPropagation(); openProjectCaseStudy('thien-dat-elevator')">
                   <i class="fa-solid fa-file-lines"></i> <span>Xem Case Study</span>
                 </button>
+                <a href="hồ%20sơ%20năng%20lực%20công%20ty%20thang%20máy%20thiên%20đạt%20(Autosaved).pdf" target="_blank" download class="card-action-btn btn-download-pdf" onclick="event.stopPropagation();">
+                  <i class="fa-solid fa-file-pdf"></i> <span>Tải PDF (19 Trang)</span>
+                </a>
               </div>
-              <span class="card-quick-zoom-badge"><i class="fa-solid fa-magnifying-glass"></i> Phóng to HD</span>
-              <span class="project-badge badge-b2b">Hồ Sơ Năng Lực B2B</span>
+              <span class="card-quick-zoom-badge"><i class="fa-solid fa-file-pdf"></i> 19 Trang PDF HD</span>
+              <span class="project-badge badge-profile">Profile Đấu Thầu B2B</span>
             </div>
             <div class="card-body" onclick="openProjectCaseStudy('thien-dat-elevator')">
               <span class="card-meta">19 Trang Hồ Sơ Năng Lực Hoàn Chỉnh</span>
@@ -1234,10 +1317,150 @@
             </div>
           </div>
 
+          <!-- Project: Hồ Sơ Năng Lực Ngô Long Ân (NLA Profile) -->
+          <div class="project-card" data-category="b2b profile" data-id="nla-profile">
+            <div class="card-thumb-wrapper" onclick="openProjectFullImage('nla-profile', 0)">
+              <img src="profile/previews/nla_profile_p1.thumb.webp" alt="Hồ Sơ Năng Lực Công Ty Ngô Long Ân (NLA)" class="card-thumb" loading="lazy" decoding="async">
+              <div class="card-overlay">
+                <button class="card-action-btn btn-view-full" title="Xem trọn bộ 11 trang HD" onclick="event.stopPropagation(); openProjectFullImage('nla-profile', 0)">
+                  <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ 11 Trang</span>
+                </button>
+                <button class="card-action-btn btn-view-case" title="Xem chi tiết Case Study dự án" onclick="event.stopPropagation(); openProjectCaseStudy('nla-profile')">
+                  <i class="fa-solid fa-file-lines"></i> <span>Xem Case Study</span>
+                </button>
+                <a href="profile/NLA%20Profile.pdf" target="_blank" download class="card-action-btn btn-download-pdf" onclick="event.stopPropagation();">
+                  <i class="fa-solid fa-file-pdf"></i> <span>Tải PDF Gốc (11 Trang)</span>
+                </a>
+              </div>
+              <span class="card-quick-zoom-badge"><i class="fa-solid fa-book-open"></i> 11 Trang Full HD</span>
+              <span class="project-badge badge-profile">Hồ Sơ Năng Lực B2B</span>
+            </div>
+            <div class="card-body" onclick="openProjectCaseStudy('nla-profile')">
+              <span class="card-meta">Ngô Long Ân • Phân Phối CHINT Global & Solar</span>
+              <h3 class="card-title">Biên Soạn & Thiết Kế Company Profile 11 Trang — Ngô Long Ân</h3>
+              <p class="card-desc">Thiết kế Hồ sơ năng lực chuẩn quốc tế song ngữ Anh - Việt khổ A4 ngang: Sơ đồ tổ chức, báo cáo tăng trưởng 5 năm, dự án tiêu biểu và hệ sinh thái giải pháp thiết bị điện CHINT.</p>
+              <div class="card-tags">
+                <span>Company Profile</span> <span>Song Ngữ Anh - Việt</span> <span>11 Trang A4</span> <span>CHINT Global</span> <span>In Ấn B2B</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project: Hồ Sơ Năng Lực Tia Sáng Telecom -->
+          <div class="project-card" data-category="b2b profile" data-id="tiasang-telecom">
+            <div class="card-thumb-wrapper" onclick="openProjectFullImage('tiasang-telecom', 0)">
+              <img src="profile/previews/tiasang_p01.thumb.webp" alt="Hồ Sơ Năng Lực Công Ty Viễn Thông Tia Sáng" class="card-thumb" loading="lazy" decoding="async">
+              <div class="card-overlay">
+                <button class="card-action-btn btn-view-full" title="Xem trọn bộ 32 trang ấn phẩm HD" onclick="event.stopPropagation(); openProjectFullImage('tiasang-telecom', 0)">
+                  <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ 32 Ấn Phẩm</span>
+                </button>
+                <button class="card-action-btn btn-view-case" title="Xem chi tiết Case Study dự án" onclick="event.stopPropagation(); openProjectCaseStudy('tiasang-telecom')">
+                  <i class="fa-solid fa-file-lines"></i> <span>Xem Case Study</span>
+                </button>
+                <a href="profile/HSNL_Tia_Sang_Telecom.pdf" target="_blank" download class="card-action-btn btn-download-pdf" onclick="event.stopPropagation();">
+                  <i class="fa-solid fa-file-pdf"></i> <span>Tải PDF (60 Trang)</span>
+                </a>
+              </div>
+              <span class="card-quick-zoom-badge"><i class="fa-solid fa-book-open"></i> 60 Trang Chuẩn ISO</span>
+              <span class="project-badge badge-profile">Hồ Sơ Năng Lực B2B</span>
+            </div>
+            <div class="card-body" onclick="openProjectCaseStudy('tiasang-telecom')">
+              <span class="card-meta">Tia Sáng Telecom • System Integration & ISO 9001:2015</span>
+              <h3 class="card-title">Biên Soạn & Thiết Kế Hồ Sơ Năng Lực 60 Trang — Tia Sáng Telecom</h3>
+              <p class="card-desc">Thiết kế trọn gói bộ Hồ sơ năng lực đấu thầu & giới thiệu giải pháp Tích hợp hệ thống Viễn thông (System Integrator): Hạ tầng mạng Cisco/HP, Data Center, Màn hình MaxHub, Camera AI, Hội nghị truyền hình & Hệ thống điện nhẹ (ELV).</p>
+              <div class="card-tags">
+                <span>Hồ Sơ Năng Lực</span> <span>Viễn Thông & SI</span> <span>60 Trang Chuẩn ISO</span> <span>Cisco • MaxHub</span> <span>Đấu Thầu Dự Án</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project: Dòng Siêu Du Thuyền Động Cơ TVD Motor Yachts -->
+          <div class="project-card" data-category="b2b yacht" data-id="tvd-motor-yachts">
+            <div class="card-thumb-wrapper" onclick="openProjectFullImage('tvd-motor-yachts', 0)">
+              <img src="profile/previews/tvd_1430my_p1.thumb.webp" alt="Dòng Du Thuyền Động Cơ TVD Motor Yachts Tân Viễn Đông" class="card-thumb" loading="lazy" decoding="async">
+              <div class="card-overlay">
+                <button class="card-action-btn btn-view-full" title="Xem trọn bộ hình ảnh 3 siêu du thuyền HD" onclick="event.stopPropagation(); openProjectFullImage('tvd-motor-yachts', 0)">
+                  <i class="fa-solid fa-expand"></i> <span>Xem Bộ Ảnh 3 Du Thuyền HD</span>
+                </button>
+                <button class="card-action-btn btn-view-case" title="Xem chi tiết Case Study dự án" onclick="event.stopPropagation(); openProjectCaseStudy('tvd-motor-yachts')">
+                  <i class="fa-solid fa-file-lines"></i> <span>Xem Case Study & PDF</span>
+                </button>
+                <a href="profile/(1)%20TVD%201430MY.pdf" target="_blank" download class="card-action-btn btn-download-pdf" onclick="event.stopPropagation();">
+                  <i class="fa-solid fa-file-pdf"></i> <span>Tải PDF TVD 1430MY</span>
+                </a>
+              </div>
+              <span class="card-quick-zoom-badge"><i class="fa-solid fa-ship"></i> 3 Dòng Siêu Du Thuyền</span>
+              <span class="project-badge badge-yacht">Du Thuyền Động Cơ</span>
+            </div>
+            <div class="card-body" onclick="openProjectCaseStudy('tvd-motor-yachts')">
+              <span class="card-meta">Tân Viễn Đông • Luxury Catamaran Motor Yachts</span>
+              <h3 class="card-title">Bộ Catalogue Dòng Siêu Du Thuyền Động Cơ TVD Motor Yachts</h3>
+              <p class="card-desc">Thiết kế ấn phẩm kỹ thuật và tài liệu bán hàng cho 3 siêu phẩm du thuyền hai thân: TVD 2500MY (25m - 60 khách), TVD 1430MY (14.3m) và TVD 980MY (10m) kèm sơ đồ boong 3D và thông số chi tiết.</p>
+              <div class="card-tags">
+                <span>Motor Yachts</span> <span>TVD 2500MY</span> <span>TVD 1430MY</span> <span>TVD 980MY</span> <span>Sơ Đồ 3D</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project: Dòng Du Thuyền Buồm Cao Cấp TVD Sailing Yachts -->
+          <div class="project-card" data-category="b2b yacht" data-id="tvd-sailing-yachts">
+            <div class="card-thumb-wrapper" onclick="openProjectFullImage('tvd-sailing-yachts', 0)">
+              <img src="profile/previews/tvd_1100sy_p1.thumb.webp" alt="Dòng Du Thuyền Buồm TVD Sailing Yachts Tân Viễn Đông" class="card-thumb" loading="lazy" decoding="async">
+              <div class="card-overlay">
+                <button class="card-action-btn btn-view-full" title="Xem trọn bộ hình ảnh du thuyền buồm HD" onclick="event.stopPropagation(); openProjectFullImage('tvd-sailing-yachts', 0)">
+                  <i class="fa-solid fa-expand"></i> <span>Xem Bộ Ảnh Du Thuyền Buồm</span>
+                </button>
+                <button class="card-action-btn btn-view-case" title="Xem chi tiết Case Study dự án" onclick="event.stopPropagation(); openProjectCaseStudy('tvd-sailing-yachts')">
+                  <i class="fa-solid fa-file-lines"></i> <span>Xem Case Study & PDF</span>
+                </button>
+                <a href="profile/(1)%20TVD%201100SY.pdf" target="_blank" download class="card-action-btn btn-download-pdf" onclick="event.stopPropagation();">
+                  <i class="fa-solid fa-file-pdf"></i> <span>Tải PDF TVD 1100SY</span>
+                </a>
+              </div>
+              <span class="card-quick-zoom-badge"><i class="fa-solid fa-sailboat"></i> Du Thuyền Buồm Cao Cấp</span>
+              <span class="project-badge badge-yacht">Du Thuyền Buồm</span>
+            </div>
+            <div class="card-body" onclick="openProjectCaseStudy('tvd-sailing-yachts')">
+              <span class="card-meta">Tân Viễn Đông • Sailing Catamaran Series</span>
+              <h3 class="card-title">Ấn Phẩm Kỹ Thuật Dòng Du Thuyền Buồm Hai Thân TVD Sailing Yachts</h3>
+              <p class="card-desc">Thiết kế ấn phẩm tiếp thị dòng du thuyền buồm sang trọng phục vụ du lịch biển và tiệc Cruise Party: TVD 1100SY Aphrodite (10.65m) và TVD 1360 SO (13.6m - 40 khách) với thông số buồm và layout tiện nghi.</p>
+              <div class="card-tags">
+                <span>Sailing Yachts</span> <span>TVD 1100SY</span> <span>TVD 1360 SO</span> <span>Cruise Party</span> <span>Catamaran</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project: Brochure Kỹ Thuật Thuyền Buồm Thể Thao Bãi Biển -->
+          <div class="project-card" data-category="b2b yacht" data-id="tvd-sport-sailing">
+            <div class="card-thumb-wrapper" onclick="openProjectFullImage('tvd-sport-sailing', 0)">
+              <img src="profile/previews/tvd_brochure_kt_p1.thumb.webp" alt="Brochure Kỹ Thuật Sport Sailing Catamaran Tân Viễn Đông" class="card-thumb" loading="lazy" decoding="async">
+              <div class="card-overlay">
+                <button class="card-action-btn btn-view-full" title="Xem trọn bộ 2 trang Brochure HD" onclick="event.stopPropagation(); openProjectFullImage('tvd-sport-sailing', 0)">
+                  <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ 2 Trang HD</span>
+                </button>
+                <button class="card-action-btn btn-view-case" title="Xem chi tiết Case Study dự án" onclick="event.stopPropagation(); openProjectCaseStudy('tvd-sport-sailing')">
+                  <i class="fa-solid fa-file-lines"></i> <span>Xem Case Study</span>
+                </button>
+                <a href="profile/Brochure%20KT14%2016%2019%2025S.pdf" target="_blank" download class="card-action-btn btn-download-pdf" onclick="event.stopPropagation();">
+                  <i class="fa-solid fa-file-pdf"></i> <span>Tải PDF Brochure (2 Trang)</span>
+                </a>
+              </div>
+              <span class="card-quick-zoom-badge"><i class="fa-solid fa-file-lines"></i> Brochure 2 Trang In Ấn</span>
+              <span class="project-badge badge-yacht">Thuyền Buồm Thể Thao</span>
+            </div>
+            <div class="card-body" onclick="openProjectCaseStudy('tvd-sport-sailing')">
+              <span class="card-meta">Tân Viễn Đông • Sport Sailing Series</span>
+              <h3 class="card-title">Brochure Thông Số Kỹ Thuật Sport Sailing Catamaran (TVD14 - 16 - 19 - 25SY)</h3>
+              <p class="card-desc">Brochure 2 trang in ấn khổ A4 giới thiệu trọn bộ 4 dòng thuyền buồm thể thao bãi biển và du lịch khám phá: bảng so sánh kích thước, diện tích buồm Main/Jib, cột buồm nhôm xếp và tiện ích cabin ngủ/bếp.</p>
+              <div class="card-tags">
+                <span>Brochure In Ấn</span> <span>Sport Catamaran</span> <span>TVD 14-16-19</span> <span>TVD 25SY</span> <span>Thông Số Kỹ Thuật</span>
+              </div>
+            </div>
+          </div>
+
           <!-- Project 4: Banner 15 Năm Thành Lập -->
           <div class="project-card" data-category="events" data-id="banner-15nam">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('banner-15nam', 0)">
-              <img src="banner kỷ niệm 15 năm thành lập công ty  final.jpg" alt="Banner kỷ niệm 15 năm thành lập" class="card-thumb" loading="lazy">
+              <img src="banner kỷ niệm 15 năm thành lập công ty  final.thumb.webp" alt="Banner kỷ niệm 15 năm thành lập" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem trọn bộ ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('banner-15nam', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ Ảnh HD</span>
@@ -1262,7 +1485,7 @@
           <!-- Project 5: Poster Tài Trợ Giải Cờ Vua -->
           <div class="project-card" data-category="events" data-id="poster-covua">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('poster-covua', 0)">
-              <img src="POSTER TÀI TRỢ CHƯƠNG TRÌNH CỜ VUA 2 copy.jpg" alt="Poster Tài Trợ Giải Cờ Vua" class="card-thumb" loading="lazy">
+              <img src="POSTER TÀI TRỢ CHƯƠNG TRÌNH CỜ VUA 2 copy.thumb.webp" alt="Poster Tài Trợ Giải Cờ Vua" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('poster-covua', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Ảnh Đầy Đủ</span>
@@ -1287,7 +1510,7 @@
           <!-- Project 6: Banner Khuyến Mãi & Backdrop -->
           <div class="project-card" data-category="events" data-id="banner-km">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('banner-km', 0)">
-              <img src="banner khuyến mãi 2 - final .jpg" alt="Banner Khuyến Mãi Bán Hàng" class="card-thumb" loading="lazy">
+              <img src="banner khuyến mãi 2 - final .thumb.webp" alt="Banner Khuyến Mãi Bán Hàng" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem trọn bộ ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('banner-km', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ Ảnh HD</span>
@@ -1312,7 +1535,7 @@
           <!-- Project 7: AI Generated Art & Creative Concept 1 -->
           <div class="project-card" data-category="ai-art" data-id="ai-creative-saas">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('ai-creative-saas', 0)">
-              <img src="Gemini_Generated_Image_4hxhb14hxhb14hxh.png" alt="AI Generated Concept Tech" class="card-thumb" loading="lazy">
+              <img src="Gemini_Generated_Image_4hxhb14hxhb14hxh.thumb.webp" alt="AI Generated Concept Tech" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem trọn bộ ảnh AI độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('ai-creative-saas', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ Ảnh HD</span>
@@ -1337,7 +1560,7 @@
           <!-- Project 8: AI Generated Art & Commercial Concept 2 -->
           <div class="project-card" data-category="ai-art" data-id="ai-character-art">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('ai-character-art', 0)">
-              <img src="Gemini_Generated_Image_92ybj192ybj192yb.png" alt="AI Generated Artwork" class="card-thumb" loading="lazy">
+              <img src="Gemini_Generated_Image_92ybj192ybj192yb.thumb.webp" alt="AI Generated Artwork" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem trọn bộ ảnh AI độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('ai-character-art', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ Ảnh HD</span>
@@ -1362,7 +1585,7 @@
           <!-- Project 9: Galant Series 2 -->
           <div class="project-card" data-category="health" data-id="galant-series-2">
             <div class="card-thumb-wrapper" onclick="openProjectFullImage('galant-series-2', 0)">
-              <img src="Thiết kế truyền thông sức khỏa sinh sản/Galant-05.jpg" alt="Ấn phẩm tuyên truyền Galant Clinic" class="card-thumb" loading="lazy">
+              <img src="Thiết kế truyền thông sức khỏa sinh sản/Galant-05.thumb.webp" alt="Ấn phẩm tuyên truyền Galant Clinic" class="card-thumb" loading="lazy" decoding="async">
               <div class="card-overlay">
                 <button class="card-action-btn btn-view-full" title="Xem trọn bộ ảnh đầy đủ độ phân giải cao" onclick="event.stopPropagation(); openProjectFullImage('galant-series-2', 0)">
                   <i class="fa-solid fa-expand"></i> <span>Xem Trọn Bộ Ảnh HD</span>
@@ -1409,103 +1632,164 @@
           
           <!-- Package 1: Performance Ads -->
           <div class="service-card">
-            <div class="service-icon-box service-icon-blue">
-              <i class="fa-solid fa-bullseye"></i>
+            <div class="service-card-top">
+              <div class="service-icon-box service-icon-blue">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+              <span class="service-timeline-tag"><i class="fa-regular fa-clock"></i> 24h - 48h</span>
             </div>
+            
             <h3 id="pkg1Title">Performance Ads & Social Media</h3>
-            <span class="service-timeline-tag"><i class="fa-regular fa-clock"></i> Bàn giao 24h - 48h</span>
+            
+            <div class="service-output-pill">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>15 - 30 Ad Creatives / Tháng</span>
+            </div>
+
             <p class="service-desc" id="pkg1Desc">Sản xuất hình ảnh quảng cáo đa kích thước (1:1, 4:5, 9:16) tối ưu chỉ số CTR, tăng tỷ lệ chuyển đổi cho chiến dịch Meta, TikTok & sàn TMĐT.</p>
+            
             <ul class="service-features-list">
-              <li><i class="fa-solid fa-circle-check"></i> Combo 15 - 30 Ad Creatives / tháng</li>
-              <li><i class="fa-solid fa-circle-check"></i> Visual Hook & Headline hấp dẫn</li>
-              <li><i class="fa-solid fa-circle-check"></i> Đa dạng định dạng Feed, Story, Reels</li>
-              <li><i class="fa-solid fa-circle-check"></i> Hỗ trợ A/B Testing nhiều biến thể</li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Đa kích thước:</strong> 1:1 Feed, 4:5 Portrait, 9:16 Story/Reels</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Visual Hook:</strong> Giữ chân người xem trong 3 giây đầu</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Thử nghiệm A/B:</strong> Đa dạng concept Headline & Angle</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Bàn giao trọn gói:</strong> File gốc PSD / Canva + WebP siêu nhẹ</span></li>
             </ul>
-            <a href="#contact" class="btn btn-outline btn-sm service-btn">Nhận Tư Vấn Gói Ads</a>
+            
+            <a href="#contact" class="btn btn-outline btn-sm service-btn" onclick="selectServiceInquiry('senior_ecommerce_designer', 'Chào anh Tuấn Đạt, tôi quan tâm đến Gói Thiết Kế Performance Ads & Social Media.')">
+              <i class="fa-solid fa-paper-plane"></i> Nhận Tư Vấn Gói Ads
+            </a>
           </div>
 
           <!-- Package 2: Web WordPress, Web3 & Landing Page CRO (Popular) -->
-          <div class="service-card popular">
-            <span class="service-popular-badge">KHUYÊN DÙNG</span>
-            <div class="service-icon-box service-icon-purple">
-              <i class="fa-brands fa-wordpress"></i>
+          <div class="service-card popular featured-glow">
+            <div class="service-popular-badge"><i class="fa-solid fa-fire"></i> KHUYÊN DÙNG</div>
+            
+            <div class="service-card-top">
+              <div class="service-icon-box service-icon-purple">
+                <i class="fa-brands fa-wordpress"></i>
+              </div>
+              <span class="service-timeline-tag hot"><i class="fa-solid fa-bolt"></i> Siêu Tốc 2 - 3 Ngày</span>
             </div>
+
             <h3 id="pkg2Title">Web WordPress, Web3 & Landing Page</h3>
-            <span class="service-timeline-tag"><i class="fa-regular fa-clock"></i> Bàn giao 2 - 3 Ngày</span>
+            
+            <div class="service-output-pill hot">
+              <i class="fa-solid fa-rocket"></i>
+              <span>Website Chuẩn SEO / Web3 DApp</span>
+            </div>
+
             <p class="service-desc" id="pkg2Desc">Thiết kế trọn gói Website WordPress chuẩn SEO, phát triển giao diện Web3/DApp hiện đại bằng Vite code và Landing Page tối ưu tỷ lệ chuyển đổi (CRO).</p>
+            
             <ul class="service-features-list">
-              <li><i class="fa-solid fa-circle-check"></i> Website WordPress chuẩn SEO & Tốc độ cao</li>
-              <li><i class="fa-solid fa-circle-check"></i> Giao diện Web3 / DApp hiện đại bằng Vite Code</li>
-              <li><i class="fa-solid fa-circle-check"></i> Tối ưu tâm lý hành vi mua sắm (CRO)</li>
-              <li><i class="fa-solid fa-circle-check"></i> Chuẩn Responsive 100% Mobile & Desktop</li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Chuẩn SEO & Tốc độ:</strong> Điểm Core Web Vitals xanh mượt</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Web3 & Vite Code:</strong> Giao diện DApp hiện đại, tương thích ví</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Tối ưu hóa CRO:</strong> Phễu tâm lý điều hướng tỷ lệ mua sắm cao</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Responsive 100%:</strong> Tối ưu hoàn hảo Mobile, Tablet, PC</span></li>
             </ul>
-            <a href="#contact" class="btn btn-primary btn-sm service-btn">Đặt Thiết Kế Web & Web3</a>
+            
+            <a href="#contact" class="btn btn-primary btn-sm service-btn" onclick="selectServiceInquiry('freelance_project', 'Chào anh Tuấn Đạt, tôi muốn đặt thiết kế trọn gói Website WordPress / Web3 Landing Page.')">
+              <i class="fa-solid fa-bolt"></i> Đặt Thiết Kế Web & Web3
+            </a>
           </div>
 
           <!-- Package 3: Brand & B2B Profile -->
           <div class="service-card">
-            <div class="service-icon-box service-icon-emerald">
-              <i class="fa-solid fa-book-open"></i>
+            <div class="service-card-top">
+              <div class="service-icon-box service-icon-emerald">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <span class="service-timeline-tag"><i class="fa-regular fa-clock"></i> 3 - 5 Ngày</span>
             </div>
+
             <h3 id="pkg3Title">Bộ Nhận Diện & Profile B2B</h3>
-            <span class="service-timeline-tag"><i class="fa-regular fa-clock"></i> Bàn giao 3 - 5 Ngày</span>
+            
+            <div class="service-output-pill">
+              <i class="fa-solid fa-print"></i>
+              <span>Profile 15 - 30 trang + File In CMYK</span>
+            </div>
+
             <p class="service-desc" id="pkg3Desc">Thiết kế Profile doanh nghiệp, Catalogue sản phẩm, Bộ ấn phẩm đấu thầu dự án chuẩn quy cách in ấn CMYK sắc nét, sang trọng.</p>
+            
             <ul class="service-features-list">
-              <li><i class="fa-solid fa-circle-check"></i> Hồ sơ năng lực 15 - 30 trang</li>
-              <li><i class="fa-solid fa-circle-check"></i> Catalogue sản phẩm kỹ thuật / vật liệu</li>
-              <li><i class="fa-solid fa-circle-check"></i> Chuẩn bị sẵn file in ấn 300DPI</li>
-              <li><i class="fa-solid fa-circle-check"></i> Bản kỹ thuật số (E-Catalogue)</li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Hồ sơ năng lực:</strong> Bố cục sang trọng, thuyết phục chủ đầu tư</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Catalogue kỹ thuật:</strong> Trình bày thông số, hình ảnh sắc nét</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Chuẩn in ấn CMYK:</strong> 300DPI sẵn sàng gửi nhà in offset</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Bản E-Catalogue:</strong> PDF tương tác gửi đối tác qua Email/Zalo</span></li>
             </ul>
-            <a href="#contact" class="btn btn-outline btn-sm service-btn">Tư Vấn Hồ Sơ B2B</a>
+            
+            <a href="#contact" class="btn btn-outline btn-sm service-btn" onclick="selectServiceInquiry('freelance_project', 'Chào anh Tuấn Đạt, tôi muốn tư vấn thiết kế Bộ Nhận Diện Doanh Nghiệp / Hồ Sơ Năng Lực B2B.')">
+              <i class="fa-solid fa-paper-plane"></i> Tư Vấn Hồ Sơ B2B
+            </a>
           </div>
 
           <!-- Package 4: Creative Lead Retainer -->
           <div class="service-card">
-            <div class="service-icon-box service-icon-amber">
-              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <div class="service-card-top">
+              <div class="service-icon-box service-icon-amber">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <span class="service-timeline-tag"><i class="fa-regular fa-calendar-check"></i> Theo Tháng / Dài Hạn</span>
             </div>
+
             <h3 id="pkg4Title">Creative Lead & AI Retainer</h3>
-            <span class="service-timeline-tag"><i class="fa-regular fa-clock"></i> Hợp đồng Dài hạn / Tháng</span>
+            
+            <div class="service-output-pill">
+              <i class="fa-solid fa-handshake"></i>
+              <span>Đồng Hành Dài Hạn / Full-time</span>
+            </div>
+
             <p class="service-desc" id="pkg4Desc">Đồng hành dài hạn phụ trách toàn bộ hệ thống hình ảnh, xây dựng quy trình ứng dụng AI tự động hóa và nâng tầm nhận diện thương hiệu.</p>
+            
             <ul class="service-features-list">
-              <li><i class="fa-solid fa-circle-check"></i> Tự chủ sản xuất 30 - 40 ấn phẩm/tháng (tùy độ phức tạp)</li>
-              <li><i class="fa-solid fa-circle-check"></i> Xây dựng hệ thống Agent AI Content</li>
-              <li><i class="fa-solid fa-circle-check"></i> Sẵn sàng làm việc trong giờ hành chính</li>
-              <li><i class="fa-solid fa-circle-check"></i> Cam kết hiệu suất và bảo mật 100%</li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Năng suất 30 - 40 Ads/tháng:</strong> Duy trì đều đặn theo tuần</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Hệ sinh thái AI:</strong> Xây dựng Agent tự động hóa sáng tạo</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Làm việc trực tiếp:</strong> Đồng hành 8h - 17h, chủ động báo cáo</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span><strong>Cam kết bảo mật:</strong> Ký kết thỏa thuận NDA bảo vệ dữ liệu</span></li>
             </ul>
-            <a href="#contact" class="btn btn-outline btn-sm service-btn">Trao Đổi Retainer</a>
+            
+            <a href="#contact" class="btn btn-outline btn-sm service-btn" onclick="selectServiceInquiry('ai_creative_lead', 'Chào anh Tuấn Đạt, chúng tôi muốn trao đổi về vị trí Creative Lead & AI Retainer dài hạn.')">
+              <i class="fa-solid fa-paper-plane"></i> Trao Đổi Retainer
+            </a>
           </div>
 
         </div>
 
-        <!-- 4 Service Guarantees Banner -->
+        <!-- 4 Service Guarantees Banner (Cam Kết Vàng) -->
         <div class="guarantees-banner">
-          <div class="guarantee-item">
-            <div class="guarantee-icon"><i class="fa-solid fa-bolt"></i></div>
-            <div class="guarantee-text">
-              <h4 id="guar1Title">100% Đúng Deadline</h4>
-              <p id="guar1Desc">Bàn giao chuẩn tiến độ cam kết, không làm gián đoạn kế hoạch chạy Ads của doanh nghiệp.</p>
-            </div>
+          <div class="guarantees-title-wrap">
+            <span class="guarantees-badge"><i class="fa-solid fa-certificate"></i> Chính Sách Chất Lượng</span>
+            <h3>4 Cam Kết Vàng Khi Hợp Tác</h3>
+            <p>Mỗi dự án đều được bảo đảm bằng uy tín nghề nghiệp, hợp đồng minh bạch và cam kết tiến độ tuyệt đối</p>
           </div>
-          <div class="guarantee-item">
-            <div class="guarantee-icon"><i class="fa-solid fa-chart-pie"></i></div>
-            <div class="guarantee-text">
-              <h4 id="guar2Title">Tối Ưu Chuyển Đổi</h4>
-              <p id="guar2Desc">Mỗi thiết kế đều dựa trên dữ liệu và insight khách hàng, hướng thẳng tới mục tiêu doanh thu.</p>
+
+          <div class="guarantees-grid">
+            <div class="guarantee-item">
+              <div class="guarantee-icon"><i class="fa-solid fa-bolt"></i></div>
+              <div class="guarantee-text">
+                <h4 id="guar1Title">100% Đúng Deadline</h4>
+                <p id="guar1Desc">Bàn giao chuẩn tiến độ cam kết, không làm gián đoạn kế hoạch chạy Ads của doanh nghiệp.</p>
+              </div>
             </div>
-          </div>
-          <div class="guarantee-item">
-            <div class="guarantee-icon"><i class="fa-solid fa-shield-halved"></i></div>
-            <div class="guarantee-text">
-              <h4 id="guar3Title">Bảo Mật Tuyệt Đối</h4>
-              <p id="guar3Desc">Sẵn sàng ký cam kết bảo mật (NDA), bảo vệ toàn bộ dữ liệu dự án và kế hoạch kinh doanh.</p>
+            <div class="guarantee-item">
+              <div class="guarantee-icon"><i class="fa-solid fa-chart-line"></i></div>
+              <div class="guarantee-text">
+                <h4 id="guar2Title">Tối Ưu Chuyển Đổi</h4>
+                <p id="guar2Desc">Mỗi thiết kế đều dựa trên dữ liệu và insight khách hàng, hướng thẳng tới mục tiêu doanh thu.</p>
+              </div>
             </div>
-          </div>
-          <div class="guarantee-item">
-            <div class="guarantee-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
-            <div class="guarantee-text">
-              <h4 id="guar4Title">Chỉnh Sửa Nhanh Trong 24h</h4>
-              <p id="guar4Desc">Tiếp nhận phản hồi và xử lý tinh chỉnh nhanh chóng, đảm bảo trải nghiệm hợp tác tốt nhất.</p>
+            <div class="guarantee-item">
+              <div class="guarantee-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="guarantee-text">
+                <h4 id="guar3Title">Bảo Mật Tuyệt Đối</h4>
+                <p id="guar3Desc">Sẵn sàng ký cam kết bảo mật (NDA), bảo vệ toàn bộ dữ liệu dự án và kế hoạch kinh doanh.</p>
+              </div>
+            </div>
+            <div class="guarantee-item">
+              <div class="guarantee-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+              <div class="guarantee-text">
+                <h4 id="guar4Title">Chỉnh Sửa Nhanh Trong 24h</h4>
+                <p id="guar4Desc">Tiếp nhận phản hồi và xử lý tinh chỉnh nhanh chóng, đảm bảo trải nghiệm hợp tác tốt nhất.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -1522,44 +1806,150 @@
           <div class="section-divider"></div>
         </div>
 
-        <div class="workflow-grid">
+        <!-- Workflow Process Roadmap -->
+        <div class="workflow-container">
+          <div class="workflow-track-line" aria-hidden="true"></div>
           
-          <div class="workflow-card">
-            <div class="workflow-step-num">01</div>
-            <div class="workflow-icon"><i class="fa-solid fa-clipboard-list"></i></div>
-            <h3 id="step1Title">Tiếp Nhận Brief & Phân Tích</h3>
-            <p id="step1Desc">Thấu hiểu sản phẩm, chân dung khách hàng mục tiêu, đối thủ cạnh tranh và mục tiêu cốt lõi của chiến dịch.</p>
-          </div>
+          <div class="workflow-grid">
+            
+            <!-- STEP 1 -->
+            <div class="workflow-card step-card-1">
+              <div class="workflow-top-bar">
+                <div class="workflow-step-num num-blue">01</div>
+                <span class="workflow-step-pill pill-blue"><i class="fa-regular fa-clock"></i> 2 - 4h Khảo Sát</span>
+              </div>
+              <div class="workflow-icon-wrap icon-blue">
+                <i class="fa-solid fa-clipboard-list"></i>
+              </div>
+              <h3 id="step1Title">Tiếp Nhận Brief & Phân Tích</h3>
+              <p id="step1Desc">Thấu hiểu sản phẩm, chân dung khách hàng mục tiêu, đối thủ cạnh tranh và mục tiêu cốt lõi của chiến dịch.</p>
+              <div class="workflow-tags">
+                <span><i class="fa-solid fa-check"></i> Phân tích USP</span>
+                <span><i class="fa-solid fa-check"></i> Chân dung KH</span>
+                <span><i class="fa-solid fa-check"></i> Xây Moodboard</span>
+              </div>
+              <div class="workflow-step-connector" aria-hidden="true">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
 
-          <div class="workflow-card">
-            <div class="workflow-step-num">02</div>
-            <div class="workflow-icon"><i class="fa-solid fa-lightbulb"></i></div>
-            <h3 id="step2Title">Lên Concept & Visual Hook</h3>
-            <p id="step2Desc">Định hình phong cách hình ảnh, hệ màu sắc nhận diện và các góc nhìn trực quan kích thích sự tò mò của người xem.</p>
-          </div>
+            <!-- STEP 2 -->
+            <div class="workflow-card step-card-2">
+              <div class="workflow-top-bar">
+                <div class="workflow-step-num num-purple">02</div>
+                <span class="workflow-step-pill pill-purple"><i class="fa-solid fa-bolt"></i> Visual Hook 3s</span>
+              </div>
+              <div class="workflow-icon-wrap icon-purple">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <h3 id="step2Title">Lên Concept & Visual Hook</h3>
+              <p id="step2Desc">Định hình phong cách hình ảnh, hệ màu sắc nhận diện và các góc nhìn trực quan kích thích sự tò mò của người xem.</p>
+              <div class="workflow-tags">
+                <span><i class="fa-solid fa-check"></i> Bắt trend thị giác</span>
+                <span><i class="fa-solid fa-check"></i> Hệ màu chuyển đổi</span>
+                <span><i class="fa-solid fa-check"></i> Layout 1:1, 4:5, 9:16</span>
+              </div>
+              <div class="workflow-step-connector" aria-hidden="true">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
 
-          <div class="workflow-card">
-            <div class="workflow-step-num">03</div>
-            <div class="workflow-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-            <h3 id="step3Title">Thiết Kế Đồ Họa & AI Tốc Độ</h3>
-            <p id="step3Desc">Thực thi hoàn thiện trên Photoshop & Canva, kết hợp công cụ AI (ChatGPT, Gemini, Flow) tăng tốc độ x3 lần.</p>
-          </div>
+            <!-- STEP 3 (FLAGSHIP - AI SPEED) -->
+            <div class="workflow-card step-card-3 highlight-step">
+              <div class="workflow-ai-badge"><i class="fa-solid fa-bolt"></i> Tốc Độ x3 Bằng AI</div>
+              <div class="workflow-top-bar">
+                <div class="workflow-step-num num-cyan">03</div>
+                <span class="workflow-step-pill pill-cyan"><i class="fa-solid fa-robot"></i> 1 - 2 Ngày Bàn Giao</span>
+              </div>
+              <div class="workflow-icon-wrap icon-cyan">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <h3 id="step3Title">Thiết Kế Đồ Họa & AI Tốc Độ</h3>
+              <p id="step3Desc">Thực thi hoàn thiện trên Photoshop & Canva, kết hợp công cụ AI (ChatGPT, Gemini, Flow) tăng tốc độ x3 lần.</p>
+              <div class="workflow-tags">
+                <span><i class="fa-solid fa-check"></i> Photoshop & Canva</span>
+                <span><i class="fa-solid fa-check"></i> Tạo ảnh AI độc quyền</span>
+                <span><i class="fa-solid fa-check"></i> Tối ưu CRO đỉnh cao</span>
+              </div>
+              <div class="workflow-step-connector" aria-hidden="true">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
 
-          <div class="workflow-card">
-            <div class="workflow-step-num">04</div>
-            <div class="workflow-icon"><i class="fa-solid fa-sliders"></i></div>
-            <h3 id="step4Title">Tinh Chỉnh Theo Feedback</h3>
-            <p id="step4Desc">Tiếp nhận góp ý trực tiếp từ khách hàng / Marketer và xử lý tinh chỉnh nhanh chóng trong vòng 24 giờ.</p>
-          </div>
+            <!-- STEP 4 -->
+            <div class="workflow-card step-card-4">
+              <div class="workflow-top-bar">
+                <div class="workflow-step-num num-amber">04</div>
+                <span class="workflow-step-pill pill-amber"><i class="fa-solid fa-rotate-right"></i> Phản Hồi &lt; 24h</span>
+              </div>
+              <div class="workflow-icon-wrap icon-amber">
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+              <h3 id="step4Title">Tinh Chỉnh Theo Feedback</h3>
+              <p id="step4Desc">Tiếp nhận góp ý trực tiếp từ khách hàng / Marketer và xử lý tinh chỉnh nhanh chóng trong vòng 24 giờ.</p>
+              <div class="workflow-tags">
+                <span><i class="fa-solid fa-check"></i> Feedback trực tiếp</span>
+                <span><i class="fa-solid fa-check"></i> Xử lý trong 24h</span>
+                <span><i class="fa-solid fa-check"></i> Chỉnh sửa đến khi ưng ý</span>
+              </div>
+              <div class="workflow-step-connector" aria-hidden="true">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
 
-          <div class="workflow-card">
-            <div class="workflow-step-num">05</div>
-            <div class="workflow-icon"><i class="fa-solid fa-box-open"></i></div>
-            <h3 id="step5Title">Bàn Giao Trọn Gói File Gốc</h3>
-            <p id="step5Desc">Bàn giao đầy đủ file gốc (PSD/Canva Link), file ảnh nén chuẩn web (WebP/PNG) và file in ấn CMYK sắc nét.</p>
-          </div>
+            <!-- STEP 5 -->
+            <div class="workflow-card step-card-5">
+              <div class="workflow-top-bar">
+                <div class="workflow-step-num num-emerald">05</div>
+                <span class="workflow-step-pill pill-emerald"><i class="fa-solid fa-box-open"></i> Full File Gốc</span>
+              </div>
+              <div class="workflow-icon-wrap icon-emerald">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <h3 id="step5Title">Bàn Giao Trọn Gói File Gốc</h3>
+              <p id="step5Desc">Bàn giao đầy đủ file gốc (PSD/Canva Link), file ảnh nén chuẩn web (WebP/PNG) và file in ấn CMYK sắc nét.</p>
+              <div class="workflow-tags">
+                <span><i class="fa-solid fa-check"></i> 100% File gốc PSD</span>
+                <span><i class="fa-solid fa-check"></i> Ảnh WebP nén siêu nhẹ</span>
+                <span><i class="fa-solid fa-check"></i> Bản in CMYK chuẩn xưởng</span>
+              </div>
+            </div>
 
+          </div>
         </div>
+
+        <!-- Workflow SLA Dashboard & Quick CTA -->
+        <div class="workflow-sla-banner">
+          <div class="workflow-sla-grid">
+            <div class="workflow-sla-item">
+              <div class="sla-icon"><i class="fa-solid fa-stopwatch"></i></div>
+              <div class="sla-content">
+                <h4>Phản Hồi Siêu Tốc &lt; 30 Phút</h4>
+                <p>Tương tác phản hồi tức thì trong khung giờ 8:00 - 17:00 (Thứ 2 - Thứ 7).</p>
+              </div>
+            </div>
+            <div class="workflow-sla-item">
+              <div class="sla-icon"><i class="fa-solid fa-rocket"></i></div>
+              <div class="sla-content">
+                <h4>Bản Nháp Đầu Tiên 24h - 48h</h4>
+                <p>Lên visual layout sớm để cùng duyệt moodboard và định hướng sáng tạo.</p>
+              </div>
+            </div>
+            <div class="workflow-sla-item">
+              <div class="sla-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="sla-content">
+                <h4>Bảo Mật NDA & Toàn Quyền File</h4>
+                <p>Toàn quyền thương mại 100% cho mọi ấn phẩm quảng cáo và mã nguồn web.</p>
+              </div>
+            </div>
+          </div>
+          <div class="workflow-sla-action">
+            <button type="button" class="btn btn-primary workflow-action-btn" onclick="document.querySelector('#interviewForm').scrollIntoView({behavior: 'smooth'})">
+              <i class="fa-solid fa-paper-plane"></i> <span>Bắt Đầu Hợp Tác Theo Quy Trình Này</span>
+            </button>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -2056,13 +2446,53 @@
                     <i class="fa-solid fa-file-word" style="color: #059669;"></i> Word Portfolio (EN)
                   </a>
                 </div>
+
+                <div style="margin-top: 0.35rem; padding-top: 0.85rem; border-top: 1px dashed var(--border-color);">
+                  <div style="font-size: 0.82rem; font-weight: 700; color: var(--text-muted); margin-bottom: 0.55rem; display: flex; align-items: center; gap: 0.4rem;">
+                    <i class="fa-solid fa-file-shield" style="color: #2563eb;"></i> Tải Hồ Sơ Năng Lực & Brochure Kỹ Thuật Tiêu Biểu:
+                  </div>
+                  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                    <a href="profile/NLA%20Profile.pdf" target="_blank" download class="btn btn-outline btn-sm" style="font-size: 0.78rem;" title="Hồ sơ năng lực Ngô Long Ân 11 trang">
+                      <i class="fa-solid fa-file-pdf" style="color: #ea580c;"></i> Profile Ngô Long Ân (11 Tr)
+                    </a>
+                    <a href="hồ%20sơ%20năng%20lực%20công%20ty%20thang%20máy%20thiên%20đạt%20(Autosaved).pdf" target="_blank" download class="btn btn-outline btn-sm" style="font-size: 0.78rem;" title="Hồ sơ năng lực Thang Máy Thiên Đạt 19 trang">
+                      <i class="fa-solid fa-file-pdf" style="color: #dc2626;"></i> Profile Thang Máy (19 Tr)
+                    </a>
+                    <a href="profile/Brochure%20KT14%2016%2019%2025S.pdf" target="_blank" download class="btn btn-outline btn-sm" style="font-size: 0.78rem;" title="Brochure Thuyền Buồm Thể Thao Tân Viễn Đông">
+                      <i class="fa-solid fa-file-pdf" style="color: #0284c7;"></i> Brochure Thuyền Buồm (TVD)
+                    </a>
+                    <a href="profile/HSNL_Tia_Sang_Telecom.pdf" target="_blank" download class="btn btn-outline btn-sm" style="font-size: 0.78rem;" title="Hồ sơ năng lực Tia Sáng Telecom 60 trang chuẩn ISO 9001:2015">
+                      <i class="fa-solid fa-file-pdf" style="color: #2563eb;"></i> Profile Tia Sáng (60 Tr)
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 
             <!-- Quick Action / Message Form -->
             <div class="contact-form-col">
               <div class="form-glass-card">
-                <h3>Gửi Lời Mời Phỏng Vấn Nhanh</h3>
+                <h3 id="formTitle">Gửi Lời Mời Phỏng Vấn Nhanh</h3>
+                
+                <!-- Fast Recruiter Selection Chips -->
+                <div class="quick-chips-wrapper">
+                  <span class="quick-chips-label"><i class="fa-solid fa-bolt" style="color: #f59e0b;"></i> <span id="quickChipsLabel">Chọn nhanh nhu cầu hợp tác:</span></span>
+                  <div class="quick-chips-list">
+                    <button type="button" class="quick-chip" data-position="senior_ecommerce_designer" data-msg="Kính mời anh Tuấn Đạt tham gia phỏng vấn vị trí Senior Creative Designer (Full-time / Hybrid tại TP.HCM).">
+                      💼 Phỏng Vấn Senior Designer
+                    </button>
+                    <button type="button" class="quick-chip" data-position="marketing_leader" data-msg="Doanh nghiệp quan tâm đến năng lực Visual Marketing Lead & tối ưu CRO của anh Tuấn Đạt. Mời anh trao đổi phỏng vấn.">
+                      🎯 Visual Marketing Lead
+                    </button>
+                    <button type="button" class="quick-chip" data-position="ai_creative_lead" data-msg="Công ty chúng tôi tìm kiếm chuyên gia AI Creative Lead & Tự động hóa sản xuất Ad Creatives đa kênh (Remote / Global).">
+                      🌐 Remote Global / US-UK-AU
+                    </button>
+                    <button type="button" class="quick-chip" data-position="freelance_project" data-msg="Cần trao đổi dự án thiết kế trọn gói Bộ Hồ Sơ Năng Lực Doanh Nghiệp / Landing Page bán hàng tốc độ cao.">
+                      🚀 Dự Án Thiết Kế Trọn Gói
+                    </button>
+                  </div>
+                </div>
+
                 <form id="interviewForm">
                   <div class="form-group">
                     <label for="senderName"><i class="fa-regular fa-user"></i> Họ tên / Quý Doanh Nghiệp</label>
@@ -2203,6 +2633,11 @@
     <i class="fa-solid fa-circle-check"></i> <span id="toastMessage">Thông báo</span>
   </div>
 
+  <!-- SMOOTH SCROLL TO TOP BUTTON -->
+  <button class="scroll-top-btn" id="scrollTopBtn" title="Cuộn lên đầu trang (Phím Home)" aria-label="Cuộn lên đầu trang">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
   <!-- FLOATING CONTACT & QUICK CHAT WIDGET -->
   <div class="floating-contact-wrapper" id="floatingContactWrapper">
     <div class="floating-contact-menu" id="floatingContactMenu">
@@ -2225,6 +2660,145 @@
       <i class="fa-solid fa-comments"></i>
       <span class="floating-tooltip">💬 Liên hệ & Chat Zalo ngay</span>
     </button>
+  </div>
+
+  <!-- RECRUITER EXECUTIVE BRIEF MODAL (30-SECOND FAST LOOK) -->
+  <div class="recruiter-modal-overlay" id="recruiterModal" onclick="if(event.target === this) closeRecruiterModal()">
+    <div class="recruiter-modal-box">
+      <button class="modal-close-btn" onclick="closeRecruiterModal()" title="Đóng (Phím Esc)">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="recruiter-header">
+        <div class="recruiter-status-pill">
+          <span class="pulse-dot green"></span>
+          <span id="rcModalStatus">SẴN SÀNG NHẬN CƠ HỘI MỚI • AVAILABLE FOR HIRE</span>
+        </div>
+        <h2 id="rcModalTitle">Bản Tóm Tắt Nhanh Cho Nhà Tuyển Dụng & Headhunter</h2>
+        <p class="recruiter-subtitle" id="rcModalSubtitle">Dành riêng cho Quý Doanh nghiệp & Hiring Manager cần đánh giá nhanh hồ sơ trong 30 giây</p>
+      </div>
+
+      <div class="recruiter-grid">
+        <!-- Card 1: Vị trí & Mô hình -->
+        <div class="recruiter-card rc-card-roles">
+          <div class="rc-icon rc-icon-blue"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="rc-info">
+            <h4 id="rcCard1Title">Vị Trí Mục Tiêu & Mô Hình Làm Việc</h4>
+            <div class="rc-tags">
+              <span class="rc-tag primary"><i class="fa-solid fa-circle-check"></i> Senior Creative Designer</span>
+              <span class="rc-tag secondary"><i class="fa-solid fa-circle-check"></i> Visual Marketing Lead</span>
+              <span class="rc-tag accent"><i class="fa-solid fa-circle-check"></i> Art Director</span>
+              <span class="rc-tag emerald"><i class="fa-solid fa-circle-check"></i> Design & CRO Specialist</span>
+            </div>
+            <div class="rc-meta-grid">
+              <div class="rc-meta-item">
+                <i class="fa-solid fa-building-user"></i>
+                <p id="rcCard1Modality"><strong>Hình thức:</strong> Full-time (TP.HCM hoặc Hybrid) | Remote 100% (Toàn quốc & Global: US, UK, AU)</p>
+              </div>
+              <div class="rc-meta-item rc-avail-item">
+                <i class="fa-solid fa-bolt"></i>
+                <p id="rcCard1Avail"><strong>Thời gian nhận việc:</strong> <span class="text-highlight">Sẵn sàng nhận việc ngay (Immediate Available)</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: 5 Lợi thế cạnh tranh -->
+        <div class="recruiter-card rc-card-values">
+          <div class="rc-icon rc-icon-gold"><i class="fa-solid fa-star"></i></div>
+          <div class="rc-info">
+            <h4 id="rcCard2Title">5 Lợi Thế Cạnh Tranh Vượt Trội (Value Propositions)</h4>
+            <ul class="rc-list" id="rcCard2List">
+              <li class="rc-list-item">
+                <span class="rc-bullet bullet-blue"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                <div><strong>10+ Năm Thực Chiến:</strong> Từ B2B Công nghiệp, Y tế, Du thuyền triệu đô đến E-Commerce quốc tế.</div>
+              </li>
+              <li class="rc-list-item">
+                <span class="rc-bullet bullet-purple"><i class="fa-solid fa-gauge-high"></i></span>
+                <div><strong>Năng Suất Cực Cao:</strong> 30 - 40 Ad Creatives/tháng, 2 - 3 ngày hoàn thiện trọn gói 1 Landing Page CRO.</div>
+              </li>
+              <li class="rc-list-item">
+                <span class="rc-bullet bullet-cyan"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <div><strong>Thế Mạnh AI Đột Phá:</strong> Làm chủ Prompt Engineering (ChatGPT, Gemini, Midjourney) x5 tốc độ sáng tạo.</div>
+              </li>
+              <li class="rc-list-item">
+                <span class="rc-bullet bullet-emerald"><i class="fa-solid fa-chart-line"></i></span>
+                <div><strong>Tư Duy Thẩm Mỹ + CRO:</strong> Thiết kế ấn phẩm hướng đến mục tiêu sinh doanh số và tối ưu tỷ lệ nhấp.</div>
+              </li>
+              <li class="rc-list-item">
+                <span class="rc-bullet bullet-amber"><i class="fa-solid fa-layer-group"></i></span>
+                <div><strong>Kỹ Năng Lai T-Shaped:</strong> Thiết kế in ấn chuẩn CMYK + Video ngắn CapCut + Tự lập trình Web (WordPress, Vite).</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 3: Bằng cấp, Chứng chỉ & Ngoại ngữ -->
+        <div class="recruiter-card rc-card-certs">
+          <div class="rc-icon rc-icon-purple"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="rc-info">
+            <h4 id="rcCard3Title">Bằng Cấp, Chứng Chỉ & Trình Độ Ngoại Ngữ</h4>
+            <div class="rc-certs">
+              <div class="rc-cert-item cert-item-blue">
+                <div class="rc-cert-icon"><i class="fa-solid fa-palette"></i></div>
+                <div class="rc-cert-content">
+                  <strong id="rcCert1Title">Cử Nhân & Đào Tạo Đồ Họa Chuyên Sâu</strong>
+                  <span id="rcCert1Sub">Thiết kế nhận diện, Bố cục Typography & In ấn kỹ thuật cao CMYK</span>
+                </div>
+              </div>
+              <div class="rc-cert-item cert-item-cyan">
+                <div class="rc-cert-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <div class="rc-cert-content">
+                  <strong id="rcCert2Title">Chứng Chỉ Digital Marketing & Tối Ưu CRO</strong>
+                  <span id="rcCert2Sub">Quản trị chiến dịch Performance, Facebook Ads, Google Ads & SEO</span>
+                </div>
+              </div>
+              <div class="rc-cert-item cert-item-purple">
+                <div class="rc-cert-icon"><i class="fa-solid fa-robot"></i></div>
+                <div class="rc-cert-content">
+                  <strong id="rcCert3Title">Chứng Nhận Tự Động Hóa AI & Prompting</strong>
+                  <span id="rcCert3Sub">Tác giả 3 Ebook AI & Hệ thống Agent tự động hóa sáng tạo nội dung</span>
+                </div>
+              </div>
+              <div class="rc-cert-item cert-item-amber">
+                <div class="rc-cert-icon"><i class="fa-solid fa-language"></i></div>
+                <div class="rc-cert-content">
+                  <strong id="rcCert4Title">Professional Working English</strong>
+                  <span id="rcCert4Sub">Tự tin làm việc & giao tiếp trực tiếp với khách hàng quốc tế</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Actions -->
+      <div class="recruiter-actions">
+        <div class="ra-downloads">
+          <span class="ra-label"><i class="fa-solid fa-file-arrow-down"></i> Tải Hồ Sơ Nhanh:</span>
+          <a href="CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_VI.pdf" target="_blank" download class="btn btn-sm btn-primary">
+            <i class="fa-solid fa-file-pdf"></i> Tải CV Tiếng Việt
+          </a>
+          <a href="CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_EN.pdf" target="_blank" download class="btn btn-sm btn-outline">
+            <i class="fa-solid fa-file-pdf"></i> Download English CV
+          </a>
+          <a href="Portfolio_NguyenTuanDat_SeniorGraphicDesigner_VI.docx" download class="btn btn-sm btn-outline">
+            <i class="fa-solid fa-file-word"></i> Portfolio Word
+          </a>
+        </div>
+        <div class="ra-contacts">
+          <a href="tel:0936680206" class="btn btn-sm btn-glass">
+            <i class="fa-solid fa-phone"></i> 0936 680 206
+          </a>
+          <a href="https://zalo.me/0936680206" target="_blank" class="btn btn-sm btn-glass">
+            <i class="fa-solid fa-comment-dots"></i> Chat Zalo Ngay
+          </a>
+          <a href="#contact" class="btn btn-sm btn-primary" onclick="closeRecruiterModal()">
+            <i class="fa-solid fa-calendar-check"></i> Đặt Lịch Phỏng Vấn
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Custom JS -->

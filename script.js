@@ -33,6 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
       navFaq: 'Hỏi Đáp',
       navContact: 'Liên hệ',
       navCvText: 'Tải CV 1 Trang',
+      navRecruiterText: 'Dành Cho Tuyển Dụng',
+      heroRecruiterText: 'Dành Cho Tuyển Dụng (30s Brief)',
+      navStatusText: 'Open to Work',
       
       heroBadge: 'Senior Creative Designer & Visual Marketing Lead • Sẵn Sàng Nhận Dự Án & Remote Global',
       heroGreeting: 'Xin chào, tôi là',
@@ -156,6 +159,34 @@ document.addEventListener('DOMContentLoaded', () => {
       contactTitle: 'Bạn Đang Tìm Kiếm Senior Graphic Designer Hay Creative Lead?',
       contactSubtitle: 'Hãy cùng trao đổi để xem cách tôi có thể tạo ra đột phá tăng trưởng cho doanh nghiệp của bạn!',
       
+      eduCertTitle: 'Bằng Cấp, Chứng Nhận Chuyên Ngành & Trình Độ Ngoại Ngữ',
+      eduCertSubtitle: 'Hồ sơ năng lực được bảo chứng qua đào tạo bài bản, chứng chỉ chuyên môn và kinh nghiệm thực chiến đa ngành',
+      ecc1Title: 'Cử Nhân & Đào Tạo Đồ Họa Chuyên Sâu',
+      ecc1Desc: 'Nền tảng kiến thức bài bản về Nguyên lý thị giác, Màu sắc thương hiệu, Bố cục Typography & Kỹ thuật chế bản in ấn công nghiệp (CMYK 300DPI Print-Ready).',
+      ecc2Title: 'Digital Marketing & Tối Ưu Chuyển Đổi (CRO)',
+      ecc2Desc: 'Chứng nhận chuyên sâu về Quản trị chiến dịch Performance, Facebook Ads, Google Search & Display, Tối ưu phễu chuyển đổi Landing Page & UI/UX.',
+      ecc3Title: 'Prompt Engineering & AI Automation Specialist',
+      ecc3Desc: 'Tác giả 3 Ebook ứng dụng AI (ChatGPT, Gemini, Midjourney) trong sáng tạo nội dung & tự động hóa quy trình sản xuất ấn phẩm tốc độ cao x5 lần.',
+      ecc4Title: 'Professional Working English (Thị Trường Global)',
+      ecc4Desc: 'Khả năng đọc hiểu tài liệu chuyên môn, nghiên cứu insight khách hàng phương Tây (US, UK, AU) và làm việc trực tiếp với Marketer, Product Owner quốc tế.',
+      quickChipsLabel: 'Chọn nhanh nhu cầu hợp tác:',
+      rcModalStatus: 'SẴN SÀNG NHẬN CƠ HỘI MỚI • AVAILABLE FOR HIRE',
+      rcModalTitle: 'Bản Tóm Tắt Nhanh Cho Nhà Tuyển Dụng & Headhunter',
+      rcModalSubtitle: 'Dành riêng cho Quý Doanh nghiệp & Hiring Manager cần đánh giá nhanh hồ sơ trong 30 giây',
+      rcCard1Title: 'Vị Trí Mục Tiêu & Mô Hình Làm Việc',
+      rcCard1Modality: '<strong>Hình thức:</strong> Full-time (TP.HCM hoặc Hybrid) | Remote 100% (Toàn quốc & Global: US, UK, AU)',
+      rcCard1Avail: '<strong>Thời gian nhận việc:</strong> <span class="text-highlight">Sẵn sàng nhận việc ngay (Immediate Available)</span>',
+      rcCard2Title: '5 Lợi Thế Cạnh Tranh Vượt Trội (Value Propositions)',
+      rcCard3Title: 'Bằng Cấp, Chứng Chỉ & Trình Độ Ngoại Ngữ',
+      rcCert1Title: 'Cử Nhân & Đào Tạo Đồ Họa Chuyên Sâu',
+      rcCert1Sub: 'Thiết kế nhận diện, Bố cục Typography & In ấn kỹ thuật cao CMYK',
+      rcCert2Title: 'Chứng Chỉ Digital Marketing & Tối Ưu CRO',
+      rcCert2Sub: 'Quản trị chiến dịch Performance, Facebook Ads, Google Ads & SEO',
+      rcCert3Title: 'Chứng Nhận Tự Động Hóa AI & Prompting',
+      rcCert3Sub: 'Tác giả 3 Ebook AI & Hệ thống Agent tự động hóa sáng tạo nội dung',
+      rcCert4Title: 'Professional Working English',
+      rcCert4Sub: 'Tự tin làm việc & giao tiếp trực tiếp với khách hàng quốc tế',
+
       toastLangSwitched: 'Đã chuyển sang Tiếng Việt 🇻🇳'
     },
     en: {
@@ -172,6 +203,9 @@ document.addEventListener('DOMContentLoaded', () => {
       navFaq: 'FAQ',
       navContact: 'Contact',
       navCvText: 'Download 1-Page CV',
+      navRecruiterText: 'For Recruiters (30s Brief)',
+      heroRecruiterText: 'Recruiter 30s Executive Brief',
+      navStatusText: 'Open to Work',
       
       heroBadge: 'Senior Creative Designer & Visual Marketing Lead • Global & Remote Ready',
       heroGreeting: 'Hello, I am',
@@ -295,6 +329,34 @@ document.addEventListener('DOMContentLoaded', () => {
       contactTitle: 'Looking for a Senior Graphic Designer or Creative Lead?',
       contactSubtitle: 'Let\'s connect to discuss how I can drive exponential visual growth for your business!',
       
+      eduCertTitle: 'Degrees, Professional Certifications & Working Languages',
+      eduCertSubtitle: 'Competencies verified through formal education, industry certifications, and proven cross-industry leadership',
+      ecc1Title: 'Bachelor Degree & Specialized Graphic Design Training',
+      ecc1Desc: 'Solid foundation in visual principles, brand color harmony, typography composition, and industrial prepress print techniques (CMYK 300DPI Print-Ready).',
+      ecc2Title: 'Digital Marketing & Conversion Rate Optimization (CRO)',
+      ecc2Desc: 'Specialized credentials in Performance Campaign Management, Meta & Google Ads, and Landing Page CRO funnel optimization.',
+      ecc3Title: 'Prompt Engineering & AI Automation Specialist',
+      ecc3Desc: 'Author of 3 applied AI Ebooks (ChatGPT, Gemini, Midjourney) in content generation and 5x automated creative production pipelines.',
+      ecc4Title: 'Professional Working English (Global Markets)',
+      ecc4Desc: 'Full professional proficiency in researching Western consumer insights (US, UK, AU) and collaborating directly with international Product Owners.',
+      quickChipsLabel: 'Quick-select inquiry type:',
+      rcModalStatus: 'OPEN TO WORK • AVAILABLE FOR HIRE',
+      rcModalTitle: 'Executive 30-Second Summary for Recruiters & Headhunters',
+      rcModalSubtitle: 'Designed for Hiring Managers and Talent Acquisition Executives reviewing candidates in 30 seconds',
+      rcCard1Title: 'Target Roles & Work Modalities',
+      rcCard1Modality: '<strong>Modality:</strong> Full-time (HCMC or Hybrid) | 100% Remote (Nationwide & Global: US, UK, AU)',
+      rcCard1Avail: '<strong>Availability:</strong> <span class="text-highlight">Immediately Available</span>',
+      rcCard2Title: '5 Core Competitive Advantages (Value Propositions)',
+      rcCard3Title: 'Degrees, Certifications & Working Languages',
+      rcCert1Title: 'Bachelor Degree & Specialized Graphic Design',
+      rcCert1Sub: 'Brand identity, typography layout, and high-precision CMYK prepress',
+      rcCert2Title: 'Digital Marketing & CRO Certifications',
+      rcCert2Sub: 'Performance campaigns, Meta Ads, Google Ads & Advanced SEO',
+      rcCert3Title: 'AI Automation & Prompt Engineering Credentials',
+      rcCert3Sub: 'Author of 3 AI Ebooks & Automated creative agent workflows',
+      rcCert4Title: 'Professional Working English',
+      rcCert4Sub: 'Confident communication and direct collaboration with global teams',
+
       toastLangSwitched: 'Switched to English 🇺🇸'
     }
   };
@@ -367,6 +429,8 @@ document.addEventListener('DOMContentLoaded', () => {
     pFilters.forEach(btn => {
       const f = btn.getAttribute('data-filter');
       if (f === 'all') btn.innerHTML = isVi ? 'Tất cả dự án' : 'All Projects';
+      else if (f === 'yacht') btn.innerHTML = isVi ? '🛥️ Du Thuyền & Hàng Hải (TVD)' : '🛥️ Yachts & Marine (TVD)';
+      else if (f === 'profile') btn.innerHTML = isVi ? '📑 Profile & Brochure B2B' : '📑 B2B Profiles & Brochures';
       else if (f === 'ecommerce') btn.innerHTML = isVi ? '💄 Mỹ Phẩm & FMCG Ads' : '💄 Beauty & FMCG Ads';
       else if (f === 'health') btn.innerHTML = isVi ? '🏥 Truyền thông Y Tế (Galant)' : '🏥 Healthcare Media (Galant)';
       else if (f === 'b2b') btn.innerHTML = isVi ? '🏭 Thương hiệu & B2B Industry' : '🏭 B2B & Industrial Branding';
@@ -440,22 +504,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // --- 3. MOBILE MENU DRAWER ---
+  // --- 3. MOBILE MENU DRAWER & BACKDROP ---
   const mobileToggle = document.getElementById('mobileToggle');
   const navMenu = document.getElementById('navMenu');
   const navLinks = document.querySelectorAll('.nav-link');
+  const navBackdrop = document.getElementById('navBackdrop');
 
-  mobileToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('open');
-    const isOpen = navMenu.classList.contains('open');
-    mobileToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
-  });
+  function closeMobileMenu() {
+    if (navMenu) navMenu.classList.remove('open');
+    if (navBackdrop) navBackdrop.classList.remove('active');
+    if (mobileToggle) mobileToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    document.body.style.overflow = 'auto';
+  }
+
+  function openMobileMenu() {
+    if (navMenu) navMenu.classList.add('open');
+    if (navBackdrop) navBackdrop.classList.add('active');
+    if (mobileToggle) mobileToggle.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+  }
+
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', () => {
+      const isOpen = navMenu && navMenu.classList.contains('open');
+      if (isOpen) {
+        closeMobileMenu();
+      } else {
+        openMobileMenu();
+      }
+    });
+  }
+
+  if (navBackdrop) {
+    navBackdrop.addEventListener('click', closeMobileMenu);
+  }
 
   navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      navMenu.classList.remove('open');
-      mobileToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
-    });
+    link.addEventListener('click', closeMobileMenu);
   });
 
   // --- 4. DYNAMIC TYPING ROLE ---
@@ -495,36 +579,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // Apply saved language on load
   applyLanguage(currentLang);
 
-  // --- 4. SCROLL SPY & NAVBAR BLUR ---
+  // --- 5. SCROLL PROGRESS, SCROLL-TO-TOP & NAVBAR SCROLLSPY ---
   const sections = document.querySelectorAll('section[id]');
   const navbar = document.getElementById('navbar');
+  const scrollProgressBar = document.getElementById('scrollProgressBar');
+  const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+  if (scrollTopBtn) {
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   window.addEventListener('scroll', () => {
-    const scrollY = window.pageYOffset;
+    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
-    // Navbar background enhancement
-    if (scrollY > 50) {
-      navbar.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.25)';
-    } else {
-      navbar.style.boxShadow = 'none';
+    // A. Reading progress bar
+    if (scrollProgressBar && docHeight > 0) {
+      const scrolled = Math.min(100, Math.max(0, (scrollY / docHeight) * 100));
+      scrollProgressBar.style.width = scrolled + '%';
     }
 
-    // Active link highlighting
+    // B. Scroll-to-top button visibility
+    if (scrollTopBtn) {
+      if (scrollY > 380) {
+        scrollTopBtn.classList.add('visible');
+      } else {
+        scrollTopBtn.classList.remove('visible');
+      }
+    }
+
+    // C. Navbar background enhancement
+    if (navbar) {
+      if (scrollY > 50) {
+        navbar.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.25)';
+      } else {
+        navbar.style.boxShadow = 'none';
+      }
+    }
+
+    // D. Active link highlighting (ScrollSpy)
     sections.forEach(current => {
       const sectionHeight = current.offsetHeight;
-      const sectionTop = current.offsetTop - 120;
+      const sectionTop = current.offsetTop - 140;
       const sectionId = current.getAttribute('id');
       const targetNavLink = document.querySelector(`.nav-link[href*="${sectionId}"]`);
 
       if (targetNavLink) {
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
           targetNavLink.classList.add('active');
         } else {
           targetNavLink.classList.remove('active');
         }
       }
     });
-  });
+  }, { passive: true });
 
   // --- 5. PORTFOLIO FILTERING (MEDIA & DESIGN) ---
   const filterBtns = document.querySelectorAll('.filter-btn');
@@ -538,8 +648,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const filterValue = btn.getAttribute('data-filter');
 
       projectCards.forEach(card => {
-        const category = card.getAttribute('data-category');
-        if (filterValue === 'all' || category === filterValue) {
+        const category = card.getAttribute('data-category') || '';
+        const catList = category.split(' ');
+        if (filterValue === 'all' || category === filterValue || catList.includes(filterValue)) {
           card.style.display = 'flex';
           setTimeout(() => {
             card.style.opacity = '1';
@@ -644,11 +755,11 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Chiến Dịch Truyền Thông Sức Khỏe & Giáo Dục Cộng Đồng',
       badge: 'Y Tế & Cộng Đồng • Phòng Khám Galant',
       images: [
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-01.jpg',
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-02.jpg',
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-03.jpg',
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-04.jpg',
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-05.jpg'
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-01.webp',
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-02.webp',
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-03.webp',
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-04.webp',
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-05.webp'
       ],
       problem: 'Chủ đề sức khỏe sinh sản & bệnh truyền nhiễm (HIV, PrEP, STIs) là chủ đề nhạy cảm, nhiều thuật ngữ y khoa khô khan, khiến người đọc có tâm lý e ngại tiếp cận.',
       solution: 'Dùng thiết kế infographic trực quan hóa dữ liệu, màu sắc hiện đại, thông điệp tích cực, văn phong đồng cảm xóa bỏ định kiến xã hội.',
@@ -659,10 +770,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Hệ Thống Nhận Diện & Tư Liệu Tiếp Thị Nguyên Liệu Composite',
       badge: 'B2B Manufacturing • Tân Viễn Đông | Kiên Trung Long | Kiên Phi',
       images: [
-        'AK HÀN QUỐC.png',
-        'Nhựa AK Hàn Quốc.png',
-        'Nhựa AK Hàn Quốc (2).png',
-        'SHCP.png'
+        'AK HÀN QUỐC.webp',
+        'Nhựa AK Hàn Quốc.webp',
+        'Nhựa AK Hàn Quốc (2).webp',
+        'SHCP.webp'
       ],
       problem: 'Doanh nghiệp đóng tàu cao cấp và phân phối vật liệu Composite có 2 tệp khách hàng hoàn toàn khác nhau (đơn vị đặt tàu giá trị lớn vs chủ xưởng cơ khí mua sỉ lẻ vật tư).',
       solution: 'Trực tiếp vào xưởng sản xuất chụp ảnh tư liệu thật, phân nhóm danh mục vật liệu (Nhựa AK, Gelcoat, Sợi thủy tinh SHCP, Vinyl Ester) và thiết kế hệ thống nhãn mác, catalogue, bảng báo giá kỹ thuật chuẩn xác.',
@@ -673,19 +784,138 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Biên Soạn & Thiết Kế Profile Doanh Nghiệp Thang Máy Thiên Đạt',
       badge: 'Hồ Sơ Năng Lực B2B • Thang Máy Thiên Đạt',
       images: [
-        'Nhựa AK Hàn Quốc (2).png'
+        'profile/previews/thien_dat_p1.webp'
       ],
+      pdfUrl: 'hồ sơ năng lực công ty thang máy thiên đạt (Autosaved).pdf',
+      pdfTitle: 'Tải PDF Hồ Sơ Năng Lực Thang Máy (19 Trang)',
       problem: 'Cần một bộ hồ sơ năng lực 19 trang hoàn chỉnh, chuẩn mực kỹ thuật để tham gia đấu thầu các dự án tòa nhà, khách sạn và khu dân cư cao cấp.',
       solution: 'Thiết kế bố cục chuyên nghiệp từ Thư ngỏ, Sơ đồ tổ chức, Năng lực sản xuất máy móc CNC, Quy trình lắp đặt 16 bước, Chính sách bảo trì 24/7 đến các dự án công trình tiêu biểu (Bà Nà Hills, Dambri, Khách sạn Corvin).',
       tools: 'Biên soạn nội dung kỹ thuật, Thiết kế đồ họa In ấn (Print Ready CMYK), Bố cục Grid chuyên nghiệp.',
       impact: 'Bộ tài liệu chính thức giúp ban giám đốc nâng cao tỷ lệ trúng thầu và khẳng định vị thế thương hiệu với các chủ đầu tư xây dựng.'
     },
+    'nla-profile': {
+      title: 'Hồ Sơ Năng Lực Doanh Nghiệp 11 Trang — Công Ty TNHH MTV Ngô Long Ân',
+      badge: 'Hồ Sơ Năng Lực B2B • Ngô Long Ân & CHINT Global',
+      images: [
+        'profile/previews/nla_profile_p1.webp',
+        'profile/previews/nla_profile_p2.webp',
+        'profile/previews/nla_profile_p3.webp',
+        'profile/previews/nla_profile_p4.webp',
+        'profile/previews/nla_profile_p5.webp',
+        'profile/previews/nla_profile_p6.webp',
+        'profile/previews/nla_profile_p7.webp',
+        'profile/previews/nla_profile_p8.webp',
+        'profile/previews/nla_profile_p9.webp',
+        'profile/previews/nla_profile_p10.webp',
+        'profile/previews/nla_profile_p11.webp'
+      ],
+      pdfUrl: 'profile/NLA Profile.pdf',
+      pdfTitle: 'Tải Full PDF Hồ Sơ Năng Lực NLA (11 Trang)',
+      problem: 'Ngô Long Ân là đơn vị phân phối thiết bị điện công nghiệp, điện cơ và điện mặt trời CHINT tại Việt Nam. Doanh nghiệp cần một bộ hồ sơ năng lực tiêu chuẩn quốc tế song ngữ Anh - Việt để tham gia các gói thầu cung ứng vật tư cơ điện cho các nhà máy, khu công nghiệp và dự án điện mặt trời quy mô lớn.',
+      solution: 'Biên soạn cấu trúc 11 trang chuẩn mực B2B: Trang bìa nhận diện đẳng cấp, Mục lục & Thông tin pháp lý, Tầm nhìn & Sứ mệnh, Sơ đồ tổ chức, Năng lực nhân sự & kho vận, Biểu đồ doanh thu 5 năm, Danh sách đối tác khách hàng, Dự án thực tế (nông nghiệp công nghệ cao, nhà xưởng) và Giải pháp thiết bị CHINT Global.',
+      tools: 'Adobe InDesign, Photoshop, Illustrator, Kỹ thuật thiết kế Print Ready CMYK, Xử lý ảnh chụp kho hàng & hệ thống pallet.',
+      impact: 'Bộ ấn phẩm chính thức giúp nâng tầm vị thế thương hiệu đối tác cấp 1 của CHINT Global tại Việt Nam, gia tăng uy tín rõ rệt trong các buổi đấu thầu kỹ thuật.'
+    },
+    'tiasang-telecom': {
+      title: 'Biên Soạn & Thiết Kế Hồ Sơ Năng Lực 60 Trang — Tia Sáng Telecom (ISO 9001:2015)',
+      badge: 'Hồ Sơ Năng Lực B2B • Viễn Thông & System Integration',
+      images: [
+        'profile/previews/tiasang_p01.webp',
+        'profile/previews/tiasang_p02.webp',
+        'profile/previews/tiasang_p03.webp',
+        'profile/previews/tiasang_p04.webp',
+        'profile/previews/tiasang_p05.webp',
+        'profile/previews/tiasang_p06.webp',
+        'profile/previews/tiasang_p07.webp',
+        'profile/previews/tiasang_p08.webp',
+        'profile/previews/tiasang_p09.webp',
+        'profile/previews/tiasang_p10.webp',
+        'profile/previews/tiasang_p11.webp',
+        'profile/previews/tiasang_p12.webp',
+        'profile/previews/tiasang_p13.webp',
+        'profile/previews/tiasang_p14.webp',
+        'profile/previews/tiasang_p15.webp',
+        'profile/previews/tiasang_p16.webp',
+        'profile/previews/tiasang_p17.webp',
+        'profile/previews/tiasang_p18.webp',
+        'profile/previews/tiasang_p19.webp',
+        'profile/previews/tiasang_p20.webp',
+        'profile/previews/tiasang_p21.webp',
+        'profile/previews/tiasang_p22.webp',
+        'profile/previews/tiasang_p23.webp',
+        'profile/previews/tiasang_p24.webp',
+        'profile/previews/tiasang_p25.webp',
+        'profile/previews/tiasang_p26.webp',
+        'profile/previews/tiasang_p27.webp',
+        'profile/previews/tiasang_p28.webp',
+        'profile/previews/tiasang_p29.webp',
+        'profile/previews/tiasang_p30.webp',
+        'profile/previews/tiasang_p31.webp',
+        'profile/previews/tiasang_p32.webp'
+      ],
+      pdfUrl: 'profile/HSNL_Tia_Sang_Telecom.pdf',
+      pdfTitle: 'Tải Full PDF Hồ Sơ Năng Lực (60 Trang)',
+      zipUrl: 'profile/HSNL_Tia_Sang_Telecom_Ban_Goc.zip',
+      zipTitle: 'Tải File Nén 32 Bản Thiết Kế Gốc (.ZIP 21MB)',
+      problem: 'Công ty TNHH Tích Hợp Mạng Viễn Thông Tia Sáng (Tia Sang Telecom Co., Ltd - thành lập năm 2007) là nhà thầu tích hợp hệ thống viễn thông (SI - System Integrator) hàng đầu tại Việt Nam. Doanh nghiệp cần một bộ Hồ Sơ Năng Lực quy chuẩn đồ sộ 60 trang đạt chứng nhận quản lý chất lượng quốc tế ISO 9001:2015 nhằm tham gia đấu thầu các dự án hạ tầng công nghệ quy mô lớn: cao ốc văn phòng, bệnh viện, trường học, bến cảng, nhà máy và trung tâm dữ liệu Data Center.',
+      solution: 'Quy hoạch toàn diện cấu trúc 60 trang (32 spreads ấn phẩm chuẩn in ấn CMYK): Thiết kế bìa nhận diện thương hiệu đỏ - xanh chuyên nghiệp, Thư ngỏ giám đốc, Pháp lý & Giấy phép kinh doanh, Chứng nhận ISO 9001:2015, Tầm nhìn - Sứ mệnh - Giá trị cốt lõi, Sơ đồ tổ chức & Năng lực nhân sự kỹ sư, Lĩnh vực hoạt động toàn diện (Hạ tầng mạng máy tính, Tổng đài VoIP, Camera giám sát AI, Hội nghị truyền hình MaxHub/Aver, Âm thanh ánh sáng TOA/Bosch, Nhà thông minh, Màn hình LED ghép, Chống sét & Điện mặt trời), Đối tác phân phối chính hãng (Cisco, HP, Dell, IBM, CommScope, Fortigate, Peplink) và Danh mục hàng trăm dự án tiêu biểu trên toàn quốc.',
+      tools: 'Adobe Photoshop, Illustrator, InDesign, CorelDRAW, Quy chuẩn thiết kế kỹ thuật Print-Ready CMYK, Xử lý hình ảnh công trình thực tế & sơ đồ kiến trúc hệ thống mạng SI.',
+      impact: 'Bộ tài liệu 60 trang chuẩn ISO 9001:2015 trở thành vũ khí đấu thầu chiến lược của Tia Sáng Telecom, giúp công ty liên tiếp trúng các gói thầu cung ứng và thi công hạ tầng viễn thông cho nhiều tập đoàn, bệnh viện và nhà máy lớn.'
+    },
+    'tvd-motor-yachts': {
+      title: 'Bộ Catalogue & Ấn Phẩm Kỹ Thuật Dòng Siêu Du Thuyền Động Cơ TVD Motor Yachts',
+      badge: 'Đóng Tàu & Du Thuyền Hàng Hải • Tân Viễn Đông',
+      images: [
+        'profile/previews/tvd_1430my_p1.webp',
+        'profile/previews/tvd_2500my_p1.webp',
+        'profile/previews/tvd_980my_p1.webp'
+      ],
+      pdfList: [
+        { title: 'TVD 1430 MY (Du Thuyền Động Cơ 14.3m)', url: 'profile/(1) TVD 1430MY.pdf' },
+        { title: 'TVD 2500 MY (Siêu Du Thuyền Victory 25m)', url: 'profile/(1) TVD 2500MY.pdf' },
+        { title: 'TVD 980 MY (Du Thuyền Động Cơ Gia Đình 10m)', url: 'profile/(1) TVD 980MY.pdf' }
+      ],
+      problem: 'Du thuyền hai thân (Catamaran) là phân khúc sản phẩm cơ khí hàng hải cao cấp với giá trị đầu tư lớn. Khách hàng thượng lưu và các công ty du lịch đòi hỏi tài liệu giới thiệu sản phẩm phải cực kỳ chi tiết về thông số hàng hải, đăng kiểm VR-SB và thiết kế không gian sống thượng lưu.',
+      solution: 'Thiết kế hệ thống ấn phẩm bán hàng sang trọng khổ lớn: ảnh chụp và phối cảnh 3D du thuyền lướt sóng, salon phòng khách panorama, quầy bar & phòng ngủ, kết hợp bảng thông số cơ bản (dài, rộng, chiều cao mạn, sức chở khách, công suất máy Mercury/Hyundai Seasall, tốc độ hải lý, dung tích két dầu/nước) và sơ đồ 3D các tầng boong tàu.',
+      tools: 'Adobe Photoshop, Kỹ thuật dàn trang Catalogue kỹ thuật hàng hải, Biên tập thông số cơ học & đăng kiểm VR-SB.',
+      impact: 'Bộ tài liệu trở thành công cụ đắc lực của ban giám đốc và đội ngũ kinh doanh khi tư vấn cho các khu nghỉ dưỡng, resort cao cấp và khách hàng cá nhân đặt đóng mới.'
+    },
+    'tvd-sailing-yachts': {
+      title: 'Ấn Phẩm Kỹ Thuật Dòng Du Thuyền Buồm Sang Trọng TVD Sailing Yachts',
+      badge: 'Du Thuyền Buồm Cao Cấp • Tân Viễn Đông',
+      images: [
+        'profile/previews/tvd_1100sy_p1.webp',
+        'profile/previews/tvd_1360so_p1.webp'
+      ],
+      pdfList: [
+        { title: 'TVD 1100 SY (Du Thuyền Buồm Aphrodite 10.65m)', url: 'profile/(1) TVD 1100SY.pdf' },
+        { title: 'TVD 1360 SO (Du Thuyền Buồm Cruise Party 13.6m)', url: 'profile/(1) TVD 1360 SO.pdf' }
+      ],
+      problem: 'Xu hướng du lịch trải nghiệm du thuyền buồm và tiệc Cruise Party biển đảo tại Nha Trang, Phú Quốc, Hạ Long bùng nổ, nhưng các đơn vị lữ hành thiếu tài liệu trực quan để đánh giá sức chứa và độ an toàn của tàu buồm sản xuất tại Việt Nam.',
+      solution: 'Thiết kế ấn phẩm nổi bật hình ảnh cánh buồm căng gió trên nền biển xanh ngọc, ảnh thực tế khách trải nghiệm tiệc ngoài trời trên boong, phối cảnh 3D mặt cắt boong tàu và bảng thông số đăng kiểm VR-SB sức tải 16 - 40 người.',
+      tools: 'Photoshop, Kỹ thuật phối màu biển khơi Nautical, Bố cục thông số kỹ thuật hàng hải, Visual storytelling du lịch cao cấp.',
+      impact: 'Khẳng định vị thế tiên phong của Tân Viễn Đông trong ngành chế tạo tàu thuyền buồm Composite tiêu chuẩn quốc tế tại Việt Nam.'
+    },
+    'tvd-sport-sailing': {
+      title: 'Brochure Thông Số Kỹ Thuật Thuyền Buồm Thể Thao Bãi Biển (TVD14 - 16 - 19 - 25SY)',
+      badge: 'Sport Sailing Catamaran • Tân Viễn Đông',
+      images: [
+        'profile/previews/tvd_brochure_kt_p1.webp',
+        'profile/previews/tvd_brochure_kt_p2.webp'
+      ],
+      pdfUrl: 'profile/Brochure KT14 16 19 25S.pdf',
+      pdfTitle: 'Tải PDF Brochure Kỹ Thuật Thuyền Buồm (2 Trang In Ấn)',
+      problem: 'Các câu lạc bộ thể thao biển, resort ven biển và vận động viên đua thuyền buồm cần bảng đối chiếu kỹ thuật chi tiết giữa các phân khúc chiều dài để lựa chọn dòng tàu phù hợp ngân sách và điều kiện sóng gió bãi biển.',
+      solution: 'Thiết kế Brochure 2 trang in ấn khổ A4: Trang 1 so sánh trực diện 3 dòng thể thao TVD14, TVD16, TVD19 (chiều dài max, tải trọng 4-8 người, diện tích buồm main/jib, hệ furler jib, bánh lái đôi, sàn lưới); Trang 2 giới thiệu chuyên sâu dòng dã ngoại cao cấp TVD25SY có cabin ngủ, bếp và động cơ treo.',
+      tools: 'Adobe Photoshop, Kỹ thuật Infographic so sánh thông số, Phối cảnh đồ họa thể thao biển năng động.',
+      impact: 'Được in ấn và phát hành trực tiếp tại các sự kiện thể thao biển, triển lãm thuyền quốc tế và gửi cho các đối tác du lịch thể thao nước ngoài.'
+    },
     'banner-15nam': {
       title: 'Thiết Kế Banner & Key Visual Kỷ Niệm 15 Năm Thành Lập',
       badge: 'Sự Kiện Doanh Nghiệp • Key Visual',
       images: [
-        'banner kỷ niệm 15 năm thành lập công ty  final.jpg',
-        'backdrop 2.jpg'
+        'banner kỷ niệm 15 năm thành lập công ty  final.webp',
+        'backdrop 2.webp'
       ],
       problem: 'Sự kiện 15 năm là cột mốc trọng đại, yêu cầu hình ảnh trang trọng, thể hiện sự phát triển bền vững và lòng tri ân sâu sắc đến khách hàng & đối tác.',
       solution: 'Sử dụng tông màu vàng kim và xanh biển sâu sang trọng, lồng ghép con số 15 cách điệu và hiệu ứng ánh sáng nổi bật.',
@@ -696,7 +926,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Poster Tài Trợ Chương Trình Phát Triển Trí Tuệ Cờ Vua',
       badge: 'CSR & Sự Kiện Thể Thao Trí Tuệ',
       images: [
-        'POSTER TÀI TRỢ CHƯƠNG TRÌNH CỜ VUA 2 copy.jpg'
+        'POSTER TÀI TRỢ CHƯƠNG TRÌNH CỜ VUA 2 copy.webp'
       ],
       problem: 'Truyền tải thông điệp tài trợ giáo dục và tư duy chiến lược cho thế hệ trẻ một cách mạnh mẽ, thu hút phụ huynh và học viên.',
       solution: 'Kết hợp hình ảnh quân cờ Vua và bố cục tương phản sắc nét, làm nổi bật thông điệp "Khơi Dậy Bản Lĩnh Trí Tuệ".',
@@ -707,8 +937,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Bộ Banner Khuyến Mãi & Backdrop Sân Khấu Kích Cầu',
       badge: 'Promotion & Sales Campaigns',
       images: [
-        'banner khuyến mãi 2 - final .jpg',
-        'backdrop 2.jpg'
+        'banner khuyến mãi 2 - final .webp',
+        'backdrop 2.webp'
       ],
       problem: 'Cần chiến dịch kích cầu bán lẻ và bán buôn nhanh chóng trong giai đoạn cao điểm mùa vụ.',
       solution: 'Thiết kế hệ thống banner đa kích thước (Web banner, Feed banner, Poster in ấn) với Call-to-Action rõ ràng, nhấn mạnh ưu đãi đặc biệt.',
@@ -719,9 +949,9 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Sáng Tạo Ad Creative & Visual Đột Phá Bằng AI',
       badge: 'AI Art & SaaS Creative • Gemini / Midjourney',
       images: [
-        'Gemini_Generated_Image_4hxhb14hxhb14hxh.png',
-        'Gemini_Generated_Image_d5ocnid5ocnid5oc.png',
-        'Gemini_Generated_Image_hvxbb4hvxbb4hvxb.png'
+        'Gemini_Generated_Image_4hxhb14hxhb14hxh.webp',
+        'Gemini_Generated_Image_d5ocnid5ocnid5oc.webp',
+        'Gemini_Generated_Image_hvxbb4hvxbb4hvxb.webp'
       ],
       problem: 'Chi phí thuê studio chụp ảnh 3D cho các sản phẩm công nghệ/SaaS rất đắt đỏ và tốn nhiều tuần để hoàn thiện.',
       solution: 'Ứng dụng kỹ thuật Prompt Engineering nâng cao (Negative prompts, Lighting control, Aspect Ratio, Seed consistency) để render hình ảnh công nghệ siêu thực.',
@@ -732,9 +962,9 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Thiết Kế Visual Đa Phong Cách & Mascot Thương Hiệu AI',
       badge: 'Visual Storytelling • Cinematic Concept',
       images: [
-        'Gemini_Generated_Image_92ybj192ybj192yb.png',
-        'Gemini_Generated_Image_um4h1dum4h1dum4h.png',
-        'Gemini_Generated_Image_ybwp75ybwp75ybwp.png'
+        'Gemini_Generated_Image_92ybj192ybj192yb.webp',
+        'Gemini_Generated_Image_um4h1dum4h1dum4h.webp',
+        'Gemini_Generated_Image_ybwp75ybwp75ybwp.webp'
       ],
       problem: 'Doanh nghiệp cần linh vật và hình ảnh minh họa kể chuyện xuyên suốt các chiến dịch nhưng thiếu nhân sự vẽ minh họa 2D/3D.',
       solution: 'Thiết lập prompt có tính nhất quán nhân vật để tạo mascot với nhiều biểu cảm và bối cảnh khác nhau phục vụ kịch bản content.',
@@ -745,10 +975,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Chuỗi Ấn Phẩm Social Tư Vấn Sức Khỏe & Phòng Ngừa Dịch Bệnh',
       badge: 'Galant Clinic • Social Healthcare Media',
       images: [
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-05.jpg',
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-06.jpg',
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-07.jpg',
-        'Thiết kế truyền thông sức khỏa sinh sản/Galant-08.jpg'
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-05.webp',
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-06.webp',
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-07.webp',
+        'Thiết kế truyền thông sức khỏa sinh sản/Galant-08.webp'
       ],
       problem: 'Cần duy trì tần suất đăng bài liên tục 3-5 bài/tuần với hình ảnh đa dạng nhưng vẫn giữ đúng quy chuẩn nhận diện thương hiệu.',
       solution: 'Xây dựng Design System mẫu (Templates) trên Photoshop, kết hợp AI hỗ trợ tìm ý tưởng hình ảnh và tinh chỉnh chi tiết.',
@@ -759,7 +989,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Thiết Kế Ad Creative Kem Dưỡng Body MEEA Premium Trendy',
       badge: 'eCommerce & Mỹ Phẩm • MEEA Premium',
       images: [
-        'ad_meea_trendy_cream.jpg'
+        'ad_meea_trendy_cream.webp'
       ],
       problem: 'Ra mắt dòng kem ủ dịch chiết lên men phiên bản Tím Trendy, cần visual cao cấp, bật sáng làn da và kích thích đặt hàng trên TikTok Shop & Facebook Ads.',
       solution: 'Bố cục người mẫu cầm sản phẩm tự nhiên, ánh sáng studio mịn màng, làm nổi bật kết cấu kem mịn mượt và các gạch đầu dòng công dụng dưỡng ẩm chuyên sâu.',
@@ -770,7 +1000,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Visual Quảng Cáo Son Kem Lì Bbia Last Velvet Tint #01 Đỏ Gạch',
       badge: 'FMCG & Beauty • Guardian Official Store',
       images: [
-        'ad_bbia_velvet_tint.jpg'
+        'ad_bbia_velvet_tint.webp'
       ],
       problem: 'Cần ấn phẩm truyền thông chuẩn quy chuẩn phân phối của Guardian, nhấn mạnh chất son lì mịn nhẹ tênh và swatch màu thực tế.',
       solution: 'Tích hợp khung zoom swatch cận cảnh làn môi, icon cam kết (lên màu chuẩn, môi mềm mịn, bền màu lâu trôi) cùng logo Guardian Official Store uy tín.',
@@ -781,7 +1011,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Poster Sữa Tắm Nước Hoa Weilaiya Tinh Chất Hoa Hồng 450ML',
       badge: 'FMCG & Chăm Sóc Cá Nhân • Guardian Official',
       images: [
-        'ad_weilaiya_shower_gel.jpg'
+        'ad_weilaiya_shower_gel.webp'
       ],
       problem: 'Sản phẩm sữa tắm cánh hoa hồng cao cấp cần truyền tải trọn vẹn cảm giác hương thơm quyến rũ, kết cấu gel mịn màng và độ sang trọng.',
       solution: 'Phối tone màu ấm áp cánh hồng, cận cảnh kết cấu gel tạo bọt mịn, các chứng nhận công dụng làm sáng da và dưỡng ẩm sâu.',
@@ -792,7 +1022,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Key Visual & Poster Sơn Ngoại Thất Diamond Nano Cao Cấp',
       badge: 'Vật Liệu Xây Dựng • Nano APO & Ưu Việt',
       images: [
-        'ad_nanoapo_paint_uuviet.jpg'
+        'ad_nanoapo_paint_uuviet.webp'
       ],
       problem: 'Truyền thông sản phẩm sơn siêu bóng công nghệ Anh Quốc, cần hình ảnh mạnh mẽ, uy tín cho hệ thống nhà phân phối Ưu Việt.',
       solution: 'Key Visual tòa nhà sang trọng ban đêm, phối hợp ánh kim cương Diamond Nano và 5 tính năng vượt trội (siêu bóng, siêu bền, chống thời tiết, an toàn, dễ lau chùi).',
@@ -803,7 +1033,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Thiết Kế Banner Giới Thiệu Nồi Inox 304 Kalpen Chuẩn Đức',
       badge: 'Đồ Gia Dụng Cao Cấp • Kalpen & Ưu Việt',
       images: [
-        'ad_kalpen_inox304_uuviet.jpg'
+        'ad_kalpen_inox304_uuviet.webp'
       ],
       problem: 'Khách hàng phân vân về chất lượng an toàn của đồ gia dụng, cần thông điệp trực diện về tiêu chuẩn an toàn sức khỏe chuẩn Đức.',
       solution: 'Cận cảnh bề mặt Inox 304 sáng bóng, bố cục bàn bếp sạch sẽ với rau củ tươi, 4 huy hiệu an toàn tuyệt đối và số điện thoại hotline tư vấn nhanh.',
@@ -864,10 +1094,45 @@ document.addEventListener('DOMContentLoaded', () => {
       thumbsHtml = `
         <div class="modal-gallery-strip">
           ${data.images.map((img, idx) => `
-            <div class="gallery-strip-item ${idx === 0 ? 'active' : ''}" onclick="changeModalMainImg('${img}', this, ${idx})" title="${currentLang === 'vi' ? 'Xem ảnh ' + (idx + 1) : 'View image ' + (idx + 1)}">
-              <img src="${img}" alt="thumbnail ${idx + 1}">
+            <div class="gallery-strip-item ${idx === 0 ? 'active' : ''}" onclick="changeModalMainImg('${img}', this, ${idx})" title="${currentLang === 'vi' ? 'Xem trang ' + (idx + 1) : 'View page ' + (idx + 1)}">
+              <img src="${img.replace('.webp', '.thumb.webp')}" alt="thumbnail ${idx + 1}" loading="lazy" decoding="async">
             </div>
           `).join('')}
+        </div>
+      `;
+    }
+
+    let pdfSectionHtml = '';
+    if (data.pdfUrl) {
+      pdfSectionHtml = `
+        <div class="modal-pdf-download-strip">
+          <span class="pdf-strip-title"><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 1.15rem;"></i> ${currentLang === 'vi' ? 'Tài Liệu Thiết Kế Đính Kèm:' : 'Attached Design Documents:'}</span>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <a href="${data.pdfUrl}" target="_blank" download class="btn btn-primary btn-sm" style="background: linear-gradient(135deg, #dc2626, #ef4444); border-color: #ef4444;">
+              <i class="fa-solid fa-arrow-down"></i> ${data.pdfTitle || (currentLang === 'vi' ? 'Tải File PDF Gốc' : 'Download Original PDF')}
+            </a>
+            <a href="${data.pdfUrl}" target="_blank" class="btn btn-outline btn-sm">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> ${currentLang === 'vi' ? 'Mở Xem PDF' : 'View PDF in Tab'}
+            </a>
+            ${data.zipUrl ? `
+            <a href="${data.zipUrl}" download class="btn btn-outline btn-sm" style="border-color: rgba(245, 158, 11, 0.5);">
+              <i class="fa-solid fa-file-zipper" style="color: #f59e0b;"></i> ${data.zipTitle || (currentLang === 'vi' ? 'Tải File Gốc (.ZIP)' : 'Download Raw (.ZIP)')}
+            </a>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    } else if (data.pdfList && data.pdfList.length > 0) {
+      pdfSectionHtml = `
+        <div class="modal-pdf-download-strip">
+          <span class="pdf-strip-title"><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 1.15rem;"></i> ${currentLang === 'vi' ? 'Tải Các File PDF Thiết Kế Gốc:' : 'Download Original PDF Files:'}</span>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            ${data.pdfList.map(item => `
+              <a href="${item.url}" target="_blank" download class="btn btn-outline btn-sm" style="font-size: 0.8rem; border-color: rgba(220, 38, 38, 0.4);">
+                <i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i> ${item.title}
+              </a>
+            `).join('')}
+          </div>
         </div>
       `;
     }
@@ -886,6 +1151,7 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
 
       ${thumbsHtml}
+      ${pdfSectionHtml}
 
       <div class="modal-case-grid">
         <div class="modal-case-box">
@@ -907,6 +1173,11 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
 
       <div style="display: flex; justify-content: flex-end; gap: 1rem; flex-wrap: wrap;">
+        ${data.pdfUrl ? `
+          <a href="${data.pdfUrl}" target="_blank" download class="btn btn-sm" style="background: linear-gradient(135deg, #dc2626, #ef4444); color: #fff;">
+            <i class="fa-solid fa-file-pdf"></i> ${currentLang === 'vi' ? 'Tải PDF Gốc' : 'Download PDF'}
+          </a>
+        ` : ''}
         <button class="btn btn-outline btn-sm" onclick="openCurrentModalImageInLightbox()">
           <i class="fa-solid fa-expand"></i> ${currentLang === 'vi' ? 'Xem Ảnh Đầy Đủ HD' : 'View Full Size HD'}
         </button>
@@ -954,7 +1225,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let galantHtml = '';
     for (let i = 1; i <= 30; i++) {
       const num = i < 10 ? `0${i}` : `${i}`;
-      const filename = i >= 19 ? `Galant_${num}.jpg` : `Galant-${num}.jpg`;
+      const filename = i >= 19 ? `Galant_${num}.thumb.webp` : `Galant-${num}.thumb.webp`;
       const fullPath = `Thiết kế truyền thông sức khỏa sinh sản/${filename}`;
       galantHtml += `
         <div class="gallery-thumb-item" onclick="openGalantLightbox(${i - 1})" title="${currentLang === 'vi' ? 'Bấm để phóng to ấn phẩm #' + num : 'Click to zoom artwork #' + num}">
@@ -1020,7 +1291,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.querySelector(`.project-card[data-id="${projectId}"]`);
         const imgEl = card ? card.querySelector('.card-thumb') : null;
         if (imgEl) {
-          images.push(imgEl.getAttribute('src'));
+          images.push(imgEl.getAttribute('src').replace('.thumb.webp', '.webp'));
           const cardTitleEl = card.querySelector('.card-title');
           if (cardTitleEl) title = cardTitleEl.textContent;
         }
@@ -1045,7 +1316,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const playlist = [];
     for (let i = 1; i <= 30; i++) {
       const num = i < 10 ? `0${i}` : `${i}`;
-      const filename = i >= 19 ? `Galant_${num}.jpg` : `Galant-${num}.jpg`;
+      const filename = i >= 19 ? `Galant_${num}.webp` : `Galant-${num}.webp`;
       const fullPath = `Thiết kế truyền thông sức khỏa sinh sản/${filename}`;
       playlist.push({
         src: fullPath,
@@ -1260,6 +1531,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     } else if (e.key === 'Escape') {
       closeProjectModal();
+      closeRecruiterModal();
       if (galleryModal) galleryModal.classList.remove('active');
       document.body.style.overflow = 'auto';
     }
@@ -1335,6 +1607,73 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // --- 14. RECRUITER EXECUTIVE BRIEF MODAL LOGIC ---
+  const recruiterModal = document.getElementById('recruiterModal');
+
+  function openRecruiterModal() {
+    if (recruiterModal) {
+      recruiterModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeRecruiterModal() {
+    if (recruiterModal) {
+      recruiterModal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+
+  window.openRecruiterModal = openRecruiterModal;
+  window.closeRecruiterModal = closeRecruiterModal;
+
+  // --- 15. FAST RECRUITER SELECTION CHIPS ---
+  const quickChips = document.querySelectorAll('.quick-chip');
+  const positionSelect = document.getElementById('positionType');
+  const messageTextarea = document.getElementById('senderMessage');
+  const senderNameInput = document.getElementById('senderName');
+
+  quickChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      quickChips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+
+      const pos = chip.getAttribute('data-position');
+      const msg = chip.getAttribute('data-msg');
+
+      if (pos && positionSelect) {
+        positionSelect.value = pos;
+      }
+      if (msg && messageTextarea) {
+        messageTextarea.value = msg;
+      }
+      if (senderNameInput) {
+        senderNameInput.focus();
+      }
+    });
+  });
+
+  // --- 16. SERVICE PACKAGE INQUIRY PREFILL ---
+  function selectServiceInquiry(posValue, messageText) {
+    const positionSelect = document.getElementById('positionType');
+    const messageTextarea = document.getElementById('senderMessage');
+    const senderNameInput = document.getElementById('senderName');
+
+    if (positionSelect && posValue) {
+      positionSelect.value = posValue;
+    }
+    if (messageTextarea && messageText) {
+      messageTextarea.value = messageText;
+    }
+    if (senderNameInput) {
+      setTimeout(() => {
+        senderNameInput.focus();
+      }, 400);
+    }
+  }
+
+  window.selectServiceInquiry = selectServiceInquiry;
 
 });
 
