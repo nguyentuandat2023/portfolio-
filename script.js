@@ -923,27 +923,29 @@ document.addEventListener('DOMContentLoaded', () => {
       impact: 'Được sử dụng làm Key Visual trung tâm cho toàn bộ chiến dịch truyền thông nội bộ và ngoại bộ của công ty.'
     },
     'poster-covua': {
-      title: 'Poster Tài Trợ Chương Trình Phát Triển Trí Tuệ Cờ Vua',
-      badge: 'CSR & Sự Kiện Thể Thao Trí Tuệ',
+      title: 'Poster Ưu Đãi Thiết Bị MaxHub & Đồng Hành Giải Cờ Vua TP.HCM',
+      badge: 'CSR & Sự Kiện Thể Thao • Thiết Bị Hội Nghị',
       images: [
+        'poster_maxhub_covua_2022.webp',
         'POSTER TÀI TRỢ CHƯƠNG TRÌNH CỜ VUA 2 copy.webp'
       ],
-      problem: 'Truyền tải thông điệp tài trợ giáo dục và tư duy chiến lược cho thế hệ trẻ một cách mạnh mẽ, thu hút phụ huynh và học viên.',
-      solution: 'Kết hợp hình ảnh quân cờ Vua và bố cục tương phản sắc nét, làm nổi bật thông điệp "Khơi Dậy Bản Lĩnh Trí Tuệ".',
-      tools: 'Photoshop, Bố cục Typography, Thiết kế Poster truyền thông đa phương tiện.',
-      impact: 'Tăng cường nhận diện thương hiệu nhà tài trợ và tiếp cận hàng nghìn gia đình trong khuôn khổ giải đấu.'
+      problem: 'Doanh nghiệp cần quảng bá chương trình ưu đãi 50% thiết bị hội nghị thông minh MaxHub (UC W10, W21) kết hợp truyền thông tài trợ Giải vô địch Cờ vua học sinh - sinh viên TP.HCM 2022 với phong cách công nghệ cao, đáng tin cậy.',
+      solution: 'Thiết kế poster phối cảnh 3D phòng họp sang trọng, nổi bật hai mẫu camera hội nghị MaxHub trên bục podium phát sáng. Bảng giá so sánh trực quan, tích hợp trọn vẹn thông tin tài trợ cờ vua, mã QR liên hệ và bộ nhận diện Tia Sáng Telecom.',
+      tools: 'Adobe Photoshop, Bố cục 3D Podium Render, Xử lý ánh sáng Neon Cyan/Blue, Typography chuyển đổi cao, Tối ưu WebP.',
+      impact: 'Ấn phẩm truyền thông chủ lực đạt tương tác cao trong chiến dịch, nâng cao uy tín thương hiệu đồng hành cùng giới trẻ trí tuệ và kích cầu bán lẻ ấn tượng.'
     },
     'banner-km': {
-      title: 'Bộ Banner Khuyến Mãi & Backdrop Sân Khấu Kích Cầu',
-      badge: 'Promotion & Sales Campaigns',
+      title: 'Bộ Banner Siêu Khuyến Mãi Thiết Bị Hội Nghị & Màn Hình Tương Tác MaxHub',
+      badge: 'Promotion & Sales Campaigns • TS Telecom',
       images: [
+        'banner_khuyenmai_maxhub_tiasang.webp',
         'banner khuyến mãi 2 - final .webp',
         'backdrop 2.webp'
       ],
-      problem: 'Cần chiến dịch kích cầu bán lẻ và bán buôn nhanh chóng trong giai đoạn cao điểm mùa vụ.',
-      solution: 'Thiết kế hệ thống banner đa kích thước (Web banner, Feed banner, Poster in ấn) với Call-to-Action rõ ràng, nhấn mạnh ưu đãi đặc biệt.',
-      tools: 'Photoshop, Thiết kế chuyển đổi (Conversion-focused design), Phối màu kích thích hành vi mua.',
-      impact: 'Góp phần thúc đẩy doanh số bán lẻ tăng 25% trong thời gian diễn ra chương trình khuyến mãi.'
+      problem: 'Chiến dịch siêu khuyến mãi giảm đến 50% toàn bộ hệ sinh thái thiết bị hội nghị và màn hình tương tác thông minh đòi hỏi một Key Visual banner bề thế, sang trọng, thể hiện đầy đủ 5 dòng sản phẩm chủ lực mà không bị rối mắt.',
+      solution: 'Bố cục thiết kế không gian phòng họp tương lai nhìn ra thành phố hiện đại. Màn hình tương tác L65TA làm chủ đạo góc phải, hàng showcase 5 thiết bị (L65TA, UC W10, WT01A, WB01, UC S10) với giá gốc gạch ngang và giá sốc màu đỏ rực rỡ, tích hợp badge bảo hành 12 tháng và hỗ trợ 24/7.',
+      tools: 'Adobe Photoshop, Thiết kế giao diện chuyển đổi (Conversion UI), Phối màu Cyber Blue & Electric Red, Tối ưu nén ảnh WebP đa nền tảng.',
+      impact: 'Tạo ấn tượng thị giác mạnh mẽ cho khách hàng doanh nghiệp B2B và B2C, tăng tỷ lệ nhấp chuột (CTR) và góp phần bứt phá doanh số chiến dịch.'
     },
     'ai-creative-saas': {
       title: 'Sáng Tạo Ad Creative & Visual Đột Phá Bằng AI',
