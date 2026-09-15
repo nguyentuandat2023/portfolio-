@@ -965,6 +965,64 @@ code {
   transition: width 1s ease-in-out;
 }
 
+/* --- Dedicated Learning Block (Mới bắt đầu học) --- */
+.skill-learning-block {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.15rem;
+  background: rgba(245, 158, 11, 0.05);
+  border: 1px dashed rgba(245, 158, 11, 0.35);
+  border-radius: var(--radius-md);
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .skill-learning-block {
+  background: rgba(245, 158, 11, 0.08);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.learning-block-header {
+  margin-bottom: 0.65rem;
+}
+
+.learning-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #b45309;
+  background: rgba(245, 158, 11, 0.12);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.01em;
+}
+
+[data-theme="dark"] .learning-badge {
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.18);
+}
+
+.learning-pct {
+  color: #b45309 !important;
+}
+
+[data-theme="dark"] .learning-pct {
+  color: #fbbf24 !important;
+}
+
+.learning-bar {
+  background: #fef3c7 !important;
+}
+
+[data-theme="dark"] .learning-bar {
+  background: rgba(245, 158, 11, 0.15) !important;
+}
+
+.learning-progress {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24) !important;
+}
+
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
