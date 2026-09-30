@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       navWhyMe: 'Thế mạnh',
       navFaq: 'Hỏi Đáp',
       navContact: 'Liên hệ',
-      navCvText: 'Tải CV 1 Trang',
+      navCvText: 'Tải CV (PDF)',
       navRecruiterText: 'Dành Cho Tuyển Dụng',
       heroRecruiterText: 'Dành Cho Tuyển Dụng (30s Brief)',
       navStatusText: 'Open to Work',
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
       heroDesc: 'Chuyên gia <strong>Visual Design, Ad Creative & Product Landing Page</strong> với hơn 10 năm kinh nghiệm tối ưu tỷ lệ chuyển đổi (CRO), <strong>chuyên sâu thiết kế Website WordPress & phát triển Web3 bằng Vite code</strong> cho thị trường quốc tế (US, UK, AU...) và các thương hiệu <strong>eCommerce, B2B & Công nghệ AI/SaaS</strong>. Năng lực tự chủ vượt trội: sản xuất <strong>30 - 40 Ad Creatives chất lượng cao/tháng (tùy độ phức tạp của sản phẩm)</strong> và hoàn thiện trọn gói <strong>Landing Page / Website trong 2 - 3 ngày</strong> với bộ công cụ <strong>Photoshop, Canva, CapCut, WordPress, Vite Code & Sức mạnh Trí tuệ nhân tạo (ChatGPT, Gemini, Flow)</strong>, đồng thời không ngừng mở rộng nghiên cứu <strong>Premiere Pro, Illustrator, Figma</strong>.',
       heroBtn1: 'Xem Dự Án Thiết Kế',
       heroBtn2: 'Xem 28 Web & Web3 Thực Tế',
-      heroBtn3: 'Tải CV PDF (1 Trang)',
+      heroBtn3: 'Tải CV (PDF)',
       
       stat1Label: 'Ad Creatives / Tháng (Tùy độ khó)',
       stat2Label: 'Ngày / Landing Page CRO',
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
       navWhyMe: 'Strengths',
       navFaq: 'FAQ',
       navContact: 'Contact',
-      navCvText: 'Download 1-Page CV',
+      navCvText: 'Download CV (PDF)',
       navRecruiterText: 'For Recruiters (30s Brief)',
       heroRecruiterText: 'Recruiter 30s Executive Brief',
       navStatusText: 'Open to Work',
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
       heroDesc: 'Senior <strong>Visual Designer, Ad Creative & Product Landing Page Specialist</strong> with 10+ years of expertise in CRO, <strong>specialized in WordPress Website Design & Web3 Vite Code Development</strong> for Global Markets (US, UK, AU...) and <strong>eCommerce, B2B & SaaS/AI Brands</strong>. Proven capacity to autonomously produce <strong>30 - 40 High-Impact Ads/month (depending on product complexity)</strong> and deliver complete <strong>Websites & Landing Pages in 2 - 3 days</strong> using <strong>Photoshop, Canva, CapCut, WordPress, Vite Code & Generative AI (ChatGPT, Gemini, Flow)</strong>, while continuously expanding skills in <strong>Premiere Pro, Illustrator, Figma</strong>.',
       heroBtn1: 'Explore Design Portfolio',
       heroBtn2: 'View 28 Live Web & Web3 Apps',
-      heroBtn3: 'Download 1-Page CV (PDF)',
+      heroBtn3: 'Download CV (PDF)',
       
       stat1Label: 'Ad Creatives / Month (By complexity)',
       stat2Label: 'Days / Landing Page CRO',
@@ -460,9 +460,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update CV download links to corresponding PDF
     const navCvBtn = document.getElementById('navCvBtn');
     const heroBtn3 = document.getElementById('heroBtn3');
-    const cvHref = isVi ? 'CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_VI.pdf' : 'CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_EN.pdf';
+    const floatingCvBtn = document.getElementById('floatingCvBtn');
+    const cvHref = isVi ? 'CV_NguyenTuanDat.pdf' : 'CV_NguyenTuanDat_EN.pdf';
     if (navCvBtn) navCvBtn.href = cvHref;
     if (heroBtn3) heroBtn3.href = cvHref;
+    if (floatingCvBtn) {
+      floatingCvBtn.href = cvHref;
+      const fSpan = floatingCvBtn.querySelector('span');
+      if (fSpan) fSpan.textContent = isVi ? 'Tải CV (PDF)' : 'Download CV (PDF)';
+    }
     
     // Portfolio Filters
     const pFilters = document.querySelectorAll('.portfolio-filter-wrapper .filter-btn');
