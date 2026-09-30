@@ -19,6 +19,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="avatar_tuan_dat.jpg">
   <meta name="theme-color" content="#2563eb">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,6 +86,7 @@
             <a href="#skills" class="nav-link" id="navSkills"><i class="fa-solid fa-layer-group"></i> <span>Năng lực</span></a>
             <a href="#web-apps" class="nav-link highlight-link" id="navWebApps"><i class="fa-solid fa-globe"></i> <span>28 Web Apps</span></a>
             <a href="#portfolio" class="nav-link" id="navPortfolio"><i class="fa-solid fa-briefcase"></i> <span>Dự án Media</span></a>
+            <a href="#videos" class="nav-link highlight-link video-nav-pill" id="navVideos"><i class="fa-solid fa-circle-play"></i> <span>43+ Video</span></a>
             <a href="#services" class="nav-link" id="navServices"><i class="fa-solid fa-gem"></i> <span>Gói Dịch Vụ</span></a>
             <a href="#workflow" class="nav-link" id="navWorkflow"><i class="fa-solid fa-diagram-project"></i> <span>Quy Trình</span></a>
           </div>
@@ -135,8 +137,11 @@
             <a href="#portfolio" class="btn btn-primary" id="heroBtn1">
               <i class="fa-solid fa-briefcase"></i> <span>Xem Dự Án Thiết Kế</span>
             </a>
+            <a href="#videos" class="btn btn-glass" id="heroBtnVideos">
+              <i class="fa-solid fa-circle-play"></i> <span>Xem 43+ Video Dự Án</span>
+            </a>
             <a href="#web-apps" class="btn btn-glass" id="heroBtn2">
-              <i class="fa-solid fa-laptop-code"></i> <span>Xem 28 Web & Web3 Thực Tế</span>
+              <i class="fa-solid fa-laptop-code"></i> <span>28 Web & Web3 Live</span>
             </a>
             <a href="CV_NguyenTuanDat_SeniorCreativeDesigner_1Page_VI.pdf" target="_blank" class="btn btn-outline" id="heroBtn3">
               <i class="fa-solid fa-file-pdf"></i> <span>Tải CV PDF (1 Trang)</span>
@@ -145,13 +150,13 @@
 
           <!-- Key Metrics -->
           <div class="hero-stats">
+            <div class="stat-card" onclick="location.href='#videos'" style="cursor: pointer;" title="Xem 43+ Video Dự Án">
+              <span class="stat-number">43+</span>
+              <span class="stat-label" id="statVideosLabel">Video Đã Thực Hiện & Biên Tập</span>
+            </div>
             <div class="stat-card">
               <span class="stat-number">30 - 40</span>
               <span class="stat-label" id="stat1Label">Ad Creatives / Tháng (Tùy độ khó)</span>
-            </div>
-            <div class="stat-card">
-              <span class="stat-number">2 - 3</span>
-              <span class="stat-label" id="stat2Label">Ngày / Landing Page CRO</span>
             </div>
             <div class="stat-card">
               <span class="stat-number">28</span>
@@ -219,25 +224,25 @@
             <i class="fa-solid fa-certificate"></i> <span>Các Thương Hiệu & Doanh Nghiệp Đã Từng Hợp Tác Thực Tế</span>
           </div>
           <div class="clients-grid">
-            <div class="client-brand-item">
+            <div class="client-brand-item" onclick="window.filterVideoCategory('tanviendong')" style="cursor: pointer;" title="Nhấp để xem 30 Video Du Thuyền Tân Viễn Đông">
               <i class="fa-solid fa-ship client-brand-icon"></i>
               <span class="client-brand-name">Tân Viễn Đông</span>
-              <span class="client-brand-sub">Đóng Tàu & Composite</span>
+              <span class="client-brand-sub">Đóng Tàu & 30 Video Live <i class="fa-solid fa-circle-play" style="color: #2563eb; font-size: 0.75rem;"></i></span>
             </div>
-            <div class="client-brand-item">
+            <div class="client-brand-item" onclick="window.filterVideoCategory('galant')" style="cursor: pointer;" title="Nhấp để xem 10 Video Y Tế Galant Clinic">
               <i class="fa-solid fa-hospital client-brand-icon"></i>
               <span class="client-brand-name">Galant Clinic</span>
-              <span class="client-brand-sub">Hệ Thống Y Tế TP.HCM</span>
+              <span class="client-brand-sub">Y Tế & 10 Video Live <i class="fa-solid fa-circle-play" style="color: #059669; font-size: 0.75rem;"></i></span>
             </div>
             <div class="client-brand-item">
               <i class="fa-solid fa-hand-holding-heart client-brand-icon"></i>
               <span class="client-brand-name">G3VN Enterprise</span>
               <span class="client-brand-sub">Doanh Nghiệp Xã Hội</span>
             </div>
-            <div class="client-brand-item">
+            <div class="client-brand-item" onclick="window.filterVideoCategory('tiasang')" style="cursor: pointer;" title="Nhấp để xem 3 Video Viễn Thông Tia Sáng">
               <i class="fa-solid fa-tower-broadcast client-brand-icon"></i>
               <span class="client-brand-name">Viễn Thông Tia Sáng</span>
-              <span class="client-brand-sub">Giải Pháp IoT & Tech</span>
+              <span class="client-brand-sub">IoT & 3 Video Live <i class="fa-solid fa-circle-play" style="color: #0284c7; font-size: 0.75rem;"></i></span>
             </div>
             <div class="client-brand-item">
               <i class="fa-solid fa-store client-brand-icon"></i>
@@ -1116,6 +1121,7 @@
         <!-- Filter Controls -->
         <div class="portfolio-filter-wrapper">
           <button class="filter-btn active" data-filter="all">Tất cả dự án</button>
+          <button class="filter-btn filter-btn-video" data-filter="videos" id="filterBtnVideos" onclick="window.filterVideoCategory('all')" title="Xem 43+ Video Dự Án Thực Tế">🎬 Video Production (43+)</button>
           <button class="filter-btn" data-filter="yacht">🛥️ Du Thuyền & Hàng Hải (TVD)</button>
           <button class="filter-btn" data-filter="profile">📑 Profile & Brochure B2B</button>
           <button class="filter-btn" data-filter="ecommerce">💄 Mỹ Phẩm & FMCG Ads</button>
@@ -1628,6 +1634,106 @@
           <p>Còn hơn <strong>30+ thiết kế truyền thông Y tế Galant</strong> và bộ tư liệu ảnh thực tế trong máy.</p>
           <button class="btn btn-outline" id="openFullGalleryBtn">
             <i class="fa-solid fa-images"></i> Xem Toàn Bộ 30+ Ấn Phẩm Galant Trong Gallery
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         VIDEO PRODUCTION & MOTION SHOWCASE SECTION (43+ REAL CLIENT PROJECTS)
+         ========================================================================== -->
+    <section class="section videos-section" id="videos">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag section-tag-video" id="videoSectionTag">
+            <i class="fa-solid fa-film"></i> Video Production & Motion Graphics
+          </span>
+          <h2 class="section-title" id="videoSectionTitle">
+            Hệ Thống 43+ Video Sản Xuất & Biên Tập Đã Thực Hiện
+          </h2>
+          <p class="section-subtitle" id="videoSectionSubtitle">
+            Tổng hợp các video giới thiệu doanh nghiệp, phóng sự thử nghiệm du thuyền triệu đô và chiến dịch truyền thông y tế do Nguyễn Tuấn Đạt trực tiếp thực hiện cho Du Thuyền Tân Viễn Đông, Phòng Khám Galant và Viễn Thông Tia Sáng.
+          </p>
+          <div class="section-divider"></div>
+
+          <!-- Highlight Stats Ribbon -->
+          <div class="video-ribbon-stats">
+            <div class="video-ribbon-card card-yacht" onclick="window.filterVideoCategory('tanviendong')">
+              <div class="v-ribbon-icon"><i class="fa-solid fa-ship"></i></div>
+              <div class="v-ribbon-info">
+                <span class="v-ribbon-num">30 Video</span>
+                <span class="v-ribbon-text" id="vRibbonYacht">Du Thuyền Tân Viễn Đông</span>
+              </div>
+              <i class="fa-solid fa-arrow-right v-ribbon-arrow"></i>
+            </div>
+
+            <div class="video-ribbon-card card-health" onclick="window.filterVideoCategory('galant')">
+              <div class="v-ribbon-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+              <div class="v-ribbon-info">
+                <span class="v-ribbon-num">10 Video</span>
+                <span class="v-ribbon-text" id="vRibbonHealth">Phòng Khám Galant Clinic</span>
+              </div>
+              <i class="fa-solid fa-arrow-right v-ribbon-arrow"></i>
+            </div>
+
+            <div class="video-ribbon-card card-telecom" onclick="window.filterVideoCategory('tiasang')">
+              <div class="v-ribbon-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
+              <div class="v-ribbon-info">
+                <span class="v-ribbon-num">03 Video</span>
+                <span class="v-ribbon-text" id="vRibbonTelecom">Viễn Thông Tia Sáng</span>
+              </div>
+              <i class="fa-solid fa-arrow-right v-ribbon-arrow"></i>
+            </div>
+
+            <div class="video-ribbon-card card-quality" onclick="window.filterVideoCategory('all')">
+              <div class="v-ribbon-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              <div class="v-ribbon-info">
+                <span class="v-ribbon-num">100% Thực Tế</span>
+                <span class="v-ribbon-text" id="vRibbonQuality">Phát Sóng Chuẩn Full HD / 4K</span>
+              </div>
+              <i class="fa-solid fa-arrow-right v-ribbon-arrow"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Control Toolbar: Filters & Live Search -->
+        <div class="video-controls-toolbar">
+          <div class="video-filter-group">
+            <button class="video-filter-btn active" data-video-filter="all">
+              <i class="fa-solid fa-layer-group"></i> <span id="vFilterAll">Tất Cả (43)</span>
+            </button>
+            <button class="video-filter-btn" data-video-filter="tanviendong">
+              <i class="fa-solid fa-ship"></i> <span id="vFilterYacht">🛥️ Tân Viễn Đông (30)</span>
+            </button>
+            <button class="video-filter-btn" data-video-filter="galant">
+              <i class="fa-solid fa-heart-pulse"></i> <span id="vFilterGalant">🏥 Phòng Khám Galant (10)</span>
+            </button>
+            <button class="video-filter-btn" data-video-filter="tiasang">
+              <i class="fa-solid fa-tower-broadcast"></i> <span id="vFilterTiasang">📡 Tia Sáng Telecom (3)</span>
+            </button>
+          </div>
+
+          <div class="video-search-wrap">
+            <div class="video-search-box">
+              <i class="fa-solid fa-magnifying-glass video-search-icon"></i>
+              <input type="text" id="videoSearchInput" placeholder="Tìm kiếm nhanh video (VD: Catamaran, PrEP, LED, Sun Group, VIGLACERA...)" aria-label="Tìm kiếm video">
+              <button type="button" id="clearVideoSearch" class="btn-clear-video-search" style="display: none;" title="Xóa tìm kiếm">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <span class="video-count-pill" id="videoCountDisplay">Đang hiển thị 43 / 43 video</span>
+          </div>
+        </div>
+
+        <!-- Video Grid -->
+        <div class="video-grid" id="videoGrid">
+          <!-- Injected dynamically by videos-data.js -->
+        </div>
+
+        <!-- Toggle All / Load More Action -->
+        <div class="video-bottom-action text-center">
+          <button class="btn btn-primary btn-toggle-videos" id="toggleAllVideosBtn">
+            <i class="fa-solid fa-plus"></i> <span id="toggleVideosText">Xem Thêm Video Còn Lại</span>
           </button>
         </div>
       </div>
@@ -2818,7 +2924,67 @@
     </div>
   </div>
 
+  <!-- MODERN CINEMATIC VIDEO PLAYER MODAL -->
+  <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="video-modal-backdrop"></div>
+    <div class="video-modal-dialog">
+      <!-- Modal Header -->
+      <div class="video-modal-header">
+        <div class="video-modal-meta">
+          <span class="video-badge-pill" id="videoModalBadge"><i class="fa-solid fa-ship"></i> <span>Tân Viễn Đông</span></span>
+          <h3 class="video-modal-title" id="videoModalTitle">Tên Video</h3>
+        </div>
+        <div class="video-modal-actions">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="video-modal-yt-btn" id="videoModalYtLink" title="Mở trực tiếp trên YouTube">
+            <i class="fa-brands fa-youtube"></i> <span>YouTube</span>
+          </a>
+          <button class="video-modal-close-btn" id="videoModalClose" title="Đóng (Phím Esc)" aria-label="Close modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Video Stage -->
+      <div class="video-modal-player-wrap">
+        <iframe 
+          id="videoModalIframe" 
+          src="" 
+          title="YouTube Video Player" 
+          frameborder="0" 
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- Video Footer Controls & Description -->
+      <div class="video-modal-footer">
+        <div class="video-modal-controls">
+          <button class="video-ctrl-btn" id="videoModalPrev" title="Video trước (Mũi tên trái)">
+            <i class="fa-solid fa-backward-step"></i> <span id="vModalPrevText">Video Trước</span>
+          </button>
+          <span class="video-modal-counter" id="videoModalCounter">1 / 43</span>
+          <button class="video-ctrl-btn" id="videoModalNext" title="Video tiếp theo (Mũi tên phải)">
+            <span id="vModalNextText">Video Sau</span> <i class="fa-solid fa-forward-step"></i>
+          </button>
+        </div>
+        <p class="video-modal-desc" id="videoModalDesc"></p>
+
+        <!-- Bottom Playlist Carousel -->
+        <div class="video-modal-playlist-drawer">
+          <div class="video-modal-playlist-header">
+            <i class="fa-solid fa-list-ul"></i> <span id="vModalPlaylistTitle">Danh sách video đang chọn:</span>
+          </div>
+          <div class="video-modal-playlist-track" id="videoModalPlaylist">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Custom JS -->
+  <script src="videos-data.js"></script>
   <script src="script.js?v=2.1"></script>
 </body>
 </html>

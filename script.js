@@ -24,6 +24,23 @@ document.addEventListener('DOMContentLoaded', () => {
       navSkills: 'Năng lực',
       navWebApps: '28 Web Apps',
       navPortfolio: 'Dự án Media',
+      navVideos: '43+ Video',
+      heroBtnVideos: 'Xem 43+ Video Dự Án',
+      statVideosLabel: 'Video Đã Thực Hiện & Biên Tập',
+      videoSectionTag: '<i class="fa-solid fa-film"></i> Video Production & Motion Graphics',
+      videoSectionTitle: 'Hệ Thống 43+ Video Sản Xuất & Biên Tập Đã Thực Hiện',
+      videoSectionSubtitle: 'Tổng hợp các video giới thiệu doanh nghiệp, phóng sự thử nghiệm du thuyền triệu đô và chiến dịch truyền thông y tế do Nguyễn Tuấn Đạt trực tiếp thực hiện cho Du Thuyền Tân Viễn Đông, Phòng Khám Galant và Viễn Thông Tia Sáng.',
+      vRibbonYacht: 'Du Thuyền Tân Viễn Đông',
+      vRibbonHealth: 'Phòng Khám Galant Clinic',
+      vRibbonTelecom: 'Viễn Thông Tia Sáng',
+      vRibbonQuality: 'Phát Sóng Chuẩn Full HD / 4K',
+      vFilterAll: 'Tất Cả (43)',
+      vFilterYacht: '🛥️ Tân Viễn Đông (30)',
+      vFilterGalant: '🏥 Phòng Khám Galant (10)',
+      vFilterTiasang: '📡 Tia Sáng Telecom (3)',
+      vModalPrevText: 'Video Trước',
+      vModalNextText: 'Video Sau',
+      vModalPlaylistTitle: 'Danh sách video đang chọn:',
       navServices: 'Gói Dịch Vụ',
       navWorkflow: 'Quy Trình',
       navTestimonials: 'Đánh Giá',
@@ -196,6 +213,23 @@ document.addEventListener('DOMContentLoaded', () => {
       navSkills: 'Skills',
       navWebApps: '28 Web Apps',
       navPortfolio: 'Media Projects',
+      navVideos: '43+ Videos',
+      heroBtnVideos: 'View 43+ Project Videos',
+      statVideosLabel: 'Client Videos Produced & Edited',
+      videoSectionTag: '<i class="fa-solid fa-film"></i> Video Production & Motion Graphics',
+      videoSectionTitle: '43+ Commercial & Showcase Videos Produced',
+      videoSectionSubtitle: 'A portfolio of 43+ corporate documentaries, luxury yacht sea-trials, and community healthcare campaigns produced and edited by Nguyen Tuan Dat for Tan Vien Dong Yacht, Galant Clinic, and Tia Sang Telecom.',
+      vRibbonYacht: 'Tan Vien Dong Marine & Yacht',
+      vRibbonHealth: 'Galant Healthcare Clinic',
+      vRibbonTelecom: 'Tia Sang Telecom Tech',
+      vRibbonQuality: 'Broadcast Ready Full HD / 4K',
+      vFilterAll: 'All Videos (43)',
+      vFilterYacht: '🛥️ Tan Vien Dong (30)',
+      vFilterGalant: '🏥 Galant Clinic (10)',
+      vFilterTiasang: '📡 Tia Sang Telecom (3)',
+      vModalPrevText: 'Previous Video',
+      vModalNextText: 'Next Video',
+      vModalPlaylistTitle: 'Currently Active Playlist:',
       navServices: 'Services',
       navWorkflow: 'Workflow',
       navTestimonials: 'Reviews',
@@ -441,6 +475,17 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (f === 'ai-art') btn.innerHTML = isVi ? '🤖 AI Art & Digital Products' : '🤖 AI Art & Digital Products';
       else if (f === 'events') btn.innerHTML = isVi ? '🎪 Banner & Sự Kiện' : '🎪 Banners & Events';
     });
+
+    // Video Section Language Refresh
+    if (window.refreshVideoShowcaseLang) {
+      window.refreshVideoShowcaseLang();
+    }
+    const videoSearchInput = document.getElementById('videoSearchInput');
+    if (videoSearchInput) {
+      videoSearchInput.placeholder = isVi 
+        ? 'Tìm kiếm nhanh video (VD: Catamaran, PrEP, LED, Sun Group, VIGLACERA...)' 
+        : 'Quick search videos (e.g. Catamaran, PrEP, LED, Sun Group, VIGLACERA...)';
+    }
 
     // Web Search Placeholder
     const searchInput = document.getElementById('webSearchInput');
