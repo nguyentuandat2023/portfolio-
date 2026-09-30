@@ -907,6 +907,167 @@ window.PORTFOLIO_VIDEOS_DATA = [
     "thumbHq": "https://img.youtube.com/vi/kbifmuqU7qU/hqdefault.jpg",
     "thumbMq": "https://img.youtube.com/vi/kbifmuqU7qU/mqdefault.jpg",
     "author": "Xưởng Tàu Composite Tân Viễn Đông"
+  },
+  {
+    "id": "gd-1Hc1VYBVboEXSrYSVKCrs3qSO_BaYK-Qn",
+    "platform": "gdrive",
+    "gdriveId": "1Hc1VYBVboEXSrYSVKCrs3qSO_BaYK-Qn",
+    "category": "tiasang",
+    "clientVi": "Viễn Thông Tia Sáng",
+    "clientEn": "Tia Sang Telecom",
+    "badgeVi": "Tia Sáng Telecom",
+    "badgeEn": "Tia Sang Telecom",
+    "icon": "fa-solid fa-tower-broadcast",
+    "color": "cyan",
+    "titleVi": "Lễ trao giải Tennis Cup Hưng Phú (Bản Master dựng sắc nét)",
+    "titleEn": "Hung Phu Tennis Cup Championship Awards - Master Cut",
+    "tagVi": "Sự Kiện & Thể Thao",
+    "tagEn": "Event & Sports Recap",
+    "descVi": "Bản Master video phóng sự tổng kết, trao huy chương và cup lưu niệm giải Tennis Cup Hưng Phú - giải đấu do Tia Sáng Telecom đồng tài trợ.",
+    "descEn": "High-definition master edit capturing tournament highlights, award ceremonies, and championship celebration co-sponsored by Tia Sang Telecom.",
+    "youtubeUrl": "https://drive.google.com/file/d/1Hc1VYBVboEXSrYSVKCrs3qSO_BaYK-Qn/view?usp=sharing",
+    "embedUrl": "https://drive.google.com/file/d/1Hc1VYBVboEXSrYSVKCrs3qSO_BaYK-Qn/preview",
+    "thumbHq": "https://drive.google.com/thumbnail?id=1Hc1VYBVboEXSrYSVKCrs3qSO_BaYK-Qn&sz=w800",
+    "thumbMq": "https://drive.google.com/thumbnail?id=1Hc1VYBVboEXSrYSVKCrs3qSO_BaYK-Qn&sz=w400",
+    "author": "Viễn Thông Tia Sáng"
+  },
+  {
+    "id": "gd-1cr81-gFlgsT6Rj79MjuepLVrwPuf_sL0",
+    "platform": "gdrive",
+    "gdriveId": "1cr81-gFlgsT6Rj79MjuepLVrwPuf_sL0",
+    "category": "tiasang",
+    "clientVi": "Viễn Thông Tia Sáng",
+    "clientEn": "Tia Sang Telecom",
+    "badgeVi": "Tia Sáng Telecom",
+    "badgeEn": "Tia Sang Telecom",
+    "icon": "fa-solid fa-display",
+    "color": "cyan",
+    "titleVi": "Giới thiệu màn hình tương tác thông minh 65LFA",
+    "titleEn": "Interactive Smart Screen 65LFA Product Demo - Tia Sang",
+    "tagVi": "Thiết Bị Công Nghệ",
+    "tagEn": "Smart Display Tech",
+    "descVi": "Video demo sản phẩm màn hình tương tác cảm ứng đa điểm 65LFA thế hệ mới, tích hợp phần mềm hội thảo và giảng dạy thông minh không dây.",
+    "descEn": "Commercial walkthrough showcasing multi-touch capabilities, 4K resolution, and interactive whiteboard features of the 65LFA smart display.",
+    "youtubeUrl": "https://drive.google.com/file/d/1cr81-gFlgsT6Rj79MjuepLVrwPuf_sL0/view?usp=sharing",
+    "embedUrl": "https://drive.google.com/file/d/1cr81-gFlgsT6Rj79MjuepLVrwPuf_sL0/preview",
+    "thumbHq": "https://drive.google.com/thumbnail?id=1cr81-gFlgsT6Rj79MjuepLVrwPuf_sL0&sz=w800",
+    "thumbMq": "https://drive.google.com/thumbnail?id=1cr81-gFlgsT6Rj79MjuepLVrwPuf_sL0&sz=w400",
+    "author": "Viễn Thông Tia Sáng"
+  },
+  {
+    "id": "gd-1Ml9sw625BjzvcVoaCoKQg_XrsaxP_pxM",
+    "platform": "gdrive",
+    "gdriveId": "1Ml9sw625BjzvcVoaCoKQg_XrsaxP_pxM",
+    "category": "tiasang",
+    "clientVi": "Viễn Thông Tia Sáng",
+    "clientEn": "Tia Sang Telecom",
+    "badgeVi": "Tia Sáng Telecom",
+    "badgeEn": "Tia Sang Telecom",
+    "icon": "fa-solid fa-tv",
+    "color": "cyan",
+    "titleVi": "Giới thiệu dịch vụ lắp đặt màn hình LED trọn gói",
+    "titleEn": "Turnkey LED Display Installation Services - Tia Sang",
+    "tagVi": "Dịch Vụ Kỹ Thuật LED",
+    "tagEn": "Commercial LED Wall",
+    "descVi": "Phóng sự thực tế về năng lực khảo sát, thiết kế khung chịu lực, thi công module LED và căn chỉnh màu sắc chuyên nghiệp cho khách hàng doanh nghiệp.",
+    "descEn": "On-site video documenting turnkey installation workflow: site survey, structural mounting, LED module calibration, and handover.",
+    "youtubeUrl": "https://drive.google.com/file/d/1Ml9sw625BjzvcVoaCoKQg_XrsaxP_pxM/view?usp=sharing",
+    "embedUrl": "https://drive.google.com/file/d/1Ml9sw625BjzvcVoaCoKQg_XrsaxP_pxM/preview",
+    "thumbHq": "https://drive.google.com/thumbnail?id=1Ml9sw625BjzvcVoaCoKQg_XrsaxP_pxM&sz=w800",
+    "thumbMq": "https://drive.google.com/thumbnail?id=1Ml9sw625BjzvcVoaCoKQg_XrsaxP_pxM&sz=w400",
+    "author": "Viễn Thông Tia Sáng"
+  },
+  {
+    "id": "gd-1Z5tKsBbqzzy7A3Y7-hBYSIvLccWu6_nA",
+    "platform": "gdrive",
+    "gdriveId": "1Z5tKsBbqzzy7A3Y7-hBYSIvLccWu6_nA",
+    "category": "tiasang",
+    "clientVi": "Viễn Thông Tia Sáng",
+    "clientEn": "Tia Sang Telecom",
+    "badgeVi": "Tia Sáng Telecom",
+    "badgeEn": "Tia Sang Telecom",
+    "icon": "fa-solid fa-video",
+    "color": "cyan",
+    "titleVi": "Giải pháp hội nghị truyền hình trực tuyến chuyên nghiệp",
+    "titleEn": "Enterprise Video Conferencing Systems & Setup - Tia Sang",
+    "tagVi": "Giải Pháp Viễn Thông",
+    "tagEn": "Telecom & Conferencing",
+    "descVi": "Giới thiệu trọn bộ giải pháp phòng họp thông minh, camera PTZ tracking, micro đa hướng và hạ tầng viễn thông kết nối đa điểm an toàn bảo mật.",
+    "descEn": "Comprehensive overview of smart conference room hardware, PTZ auto-tracking cameras, beamforming microphones, and secure telecom networking.",
+    "youtubeUrl": "https://drive.google.com/file/d/1Z5tKsBbqzzy7A3Y7-hBYSIvLccWu6_nA/view?usp=sharing",
+    "embedUrl": "https://drive.google.com/file/d/1Z5tKsBbqzzy7A3Y7-hBYSIvLccWu6_nA/preview",
+    "thumbHq": "https://drive.google.com/thumbnail?id=1Z5tKsBbqzzy7A3Y7-hBYSIvLccWu6_nA&sz=w800",
+    "thumbMq": "https://drive.google.com/thumbnail?id=1Z5tKsBbqzzy7A3Y7-hBYSIvLccWu6_nA&sz=w400",
+    "author": "Viễn Thông Tia Sáng"
+  },
+  {
+    "id": "gd-1Pl6P43XcYowIXryYt4deNNrzzwFgZc4g",
+    "platform": "gdrive",
+    "gdriveId": "1Pl6P43XcYowIXryYt4deNNrzzwFgZc4g",
+    "category": "commercial",
+    "clientVi": "Yaguso Vietnam",
+    "clientEn": "Yaguso Commercial",
+    "badgeVi": "Yaguso Vietnam",
+    "badgeEn": "Yaguso Vietnam",
+    "icon": "fa-solid fa-motorcycle",
+    "color": "amber",
+    "titleVi": "Giới thiệu căm nan hoa xe máy Yaguso cao cấp",
+    "titleEn": "Premium Yaguso Motorcycle Spokes & Nipples Showcase",
+    "tagVi": "TVC Sản Phẩm 3D / Motion",
+    "tagEn": "3D & Product Motion",
+    "descVi": "Video motion graphics và 3D giới thiệu chi tiết độ bền, công nghệ mạ và độ chính xác cơ khí của dòng căm nan hoa xe máy Yaguso.",
+    "descEn": "Commercial motion showcase highlighting durability, electroplating technology, and precision engineering of Yaguso motorcycle spokes.",
+    "youtubeUrl": "https://drive.google.com/file/d/1Pl6P43XcYowIXryYt4deNNrzzwFgZc4g/view?usp=sharing",
+    "embedUrl": "https://drive.google.com/file/d/1Pl6P43XcYowIXryYt4deNNrzzwFgZc4g/preview",
+    "thumbHq": "https://drive.google.com/thumbnail?id=1Pl6P43XcYowIXryYt4deNNrzzwFgZc4g&sz=w800",
+    "thumbMq": "https://drive.google.com/thumbnail?id=1Pl6P43XcYowIXryYt4deNNrzzwFgZc4g&sz=w400",
+    "author": "Yaguso Vietnam"
+  },
+  {
+    "id": "gd-1Pfgml7cBXK7zNJuKEtWHoBJv2ZgrS9jb",
+    "platform": "gdrive",
+    "gdriveId": "1Pfgml7cBXK7zNJuKEtWHoBJv2ZgrS9jb",
+    "category": "commercial",
+    "clientVi": "Chiến Dịch Khuyến Mãi",
+    "clientEn": "Promotional Campaign",
+    "badgeVi": "TVC Chiến Dịch",
+    "badgeEn": "Promo Campaign",
+    "icon": "fa-solid fa-bullhorn",
+    "color": "rose",
+    "titleVi": "TVC Quảng Cáo - Chương trình khuyến mãi 25.8",
+    "titleEn": "Promotional TVC Campaign 25.8 - Commercial Spot",
+    "tagVi": "TVC Khuyến Mãi Bán Hàng",
+    "tagEn": "Commercial Promo TVC",
+    "descVi": "Biên tập video TVC quảng cáo khuyến mãi với tiết tấu dồn dập, hiệu ứng chữ chuyển động và kêu gọi hành động (CTA) tối ưu chuyển đổi bán hàng.",
+    "descEn": "Fast-paced promotional TVC commercial with dynamic kinetic typography, energetic pacing, and high-conversion call-to-action.",
+    "youtubeUrl": "https://drive.google.com/file/d/1Pfgml7cBXK7zNJuKEtWHoBJv2ZgrS9jb/view?usp=sharing",
+    "embedUrl": "https://drive.google.com/file/d/1Pfgml7cBXK7zNJuKEtWHoBJv2ZgrS9jb/preview",
+    "thumbHq": "https://drive.google.com/thumbnail?id=1Pfgml7cBXK7zNJuKEtWHoBJv2ZgrS9jb&sz=w800",
+    "thumbMq": "https://drive.google.com/thumbnail?id=1Pfgml7cBXK7zNJuKEtWHoBJv2ZgrS9jb&sz=w400",
+    "author": "Creative Visual Media"
+  },
+  {
+    "id": "gd-13gtFcxHZNa0xB_oPPKbds9ylOV735TZN",
+    "platform": "gdrive",
+    "gdriveId": "13gtFcxHZNa0xB_oPPKbds9ylOV735TZN",
+    "category": "commercial",
+    "clientVi": "ProShow Showreel 4K",
+    "clientEn": "ProShow Showreel 4K",
+    "badgeVi": "Showreel 4K",
+    "badgeEn": "4K Showreel",
+    "icon": "fa-solid fa-wand-magic-sparkles",
+    "color": "indigo",
+    "titleVi": "ProShow Visual Slideshow 4K Ultra HD",
+    "titleEn": "ProShow Cinematic Visual Slideshow 4K Presentation",
+    "tagVi": "Trình Diễn Slideshow 4K",
+    "tagEn": "4K Cinematic Presentation",
+    "descVi": "Tác phẩm dựng trình diễn hình ảnh điện ảnh 4K Ultra HD với các hiệu ứng chuyển động camera 3D mượt mà, chuyển cảnh nghệ thuật và âm thanh đồng bộ chuẩn.",
+    "descEn": "Ultra HD 4K cinematic visual presentation featuring smooth 3D camera animations, artistic transitions, and synchronized soundtrack.",
+    "youtubeUrl": "https://drive.google.com/file/d/13gtFcxHZNa0xB_oPPKbds9ylOV735TZN/view?usp=sharing",
+    "embedUrl": "https://drive.google.com/file/d/13gtFcxHZNa0xB_oPPKbds9ylOV735TZN/preview",
+    "thumbHq": "https://drive.google.com/thumbnail?id=13gtFcxHZNa0xB_oPPKbds9ylOV735TZN&sz=w800",
+    "thumbMq": "https://drive.google.com/thumbnail?id=13gtFcxHZNa0xB_oPPKbds9ylOV735TZN&sz=w400",
+    "author": "Nguyễn Tuấn Đạt"
   }
 ];
 
@@ -1053,8 +1214,8 @@ window.PORTFOLIO_VIDEOS_DATA = [
               <button class="btn-video-cinema" onclick="window.openVideoModal('${v.id}')" title="${isVi ? 'Xem rạp chiếu phóng to' : 'Cinema Theater Mode'}">
                 <i class="fa-solid fa-expand"></i>
               </button>
-              <a href="${v.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="btn-video-yt" title="${isVi ? 'Mở trực tiếp trên YouTube' : 'Open in YouTube'}">
-                <i class="fa-brands fa-youtube"></i>
+              <a href="${v.youtubeUrl}" target="_blank" rel="noopener noreferrer" class="btn-video-yt ${v.platform === 'gdrive' ? 'btn-gdrive' : ''}" title="${v.platform === 'gdrive' ? (isVi ? 'Mở trên Google Drive' : 'Open in Google Drive') : (isVi ? 'Mở trên YouTube' : 'Open in YouTube')}">
+                <i class="${v.platform === 'gdrive' ? 'fa-brands fa-google-drive' : 'fa-brands fa-youtube'}"></i>
               </a>
             </div>
           </div>
@@ -1085,10 +1246,9 @@ window.PORTFOLIO_VIDEOS_DATA = [
     currentlyPlayingInlineId = videoId;
     if (card) card.classList.add('is-playing');
 
-    const isFile = window.location.protocol === 'file:';
     thumbContainer.innerHTML = `
       <iframe 
-        src="https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0&playsinline=1&enablejsapi=1" 
+        src="${v.embedUrl}" 
         class="video-inline-iframe" 
         title="${title}" 
         frameborder="0" 
@@ -1311,7 +1471,7 @@ window.PORTFOLIO_VIDEOS_DATA = [
 
     if (iframe) {
       iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
-      iframe.src = `https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0&playsinline=1&enablejsapi=1`;
+      iframe.src = video.embedUrl;
     }
 
     if (titleEl) {
@@ -1325,7 +1485,9 @@ window.PORTFOLIO_VIDEOS_DATA = [
 
     if (ytLink) {
       ytLink.href = video.youtubeUrl;
-      ytLink.title = isVi ? 'Mở trên YouTube' : 'Open in YouTube';
+      const isGd = video.platform === 'gdrive';
+      ytLink.title = isGd ? (isVi ? 'Mở trên Google Drive' : 'Open in Google Drive') : (isVi ? 'Mở trên YouTube' : 'Open in YouTube');
+      ytLink.innerHTML = `<i class="${isGd ? 'fa-brands fa-google-drive' : 'fa-brands fa-youtube'}"></i>`;
     }
 
     if (counterEl) {

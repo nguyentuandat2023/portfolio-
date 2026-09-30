@@ -5688,6 +5688,21 @@ code {
   border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
+.video-badge-amber {
+  background: rgba(217, 119, 6, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.video-badge-rose {
+  background: rgba(225, 29, 72, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.video-badge-indigo {
+  background: rgba(79, 70, 229, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
 /* Format Tag */
 .video-format-pill {
   position: absolute;
@@ -5816,6 +5831,19 @@ code {
   color: #ffffff;
   transform: translateY(-2px) scale(1.08);
   box-shadow: 0 4px 14px rgba(225, 29, 72, 0.4);
+}
+
+.btn-video-yt.btn-gdrive {
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.btn-video-yt.btn-gdrive:hover {
+  background: #10b981;
+  color: #ffffff;
+  border-color: #10b981;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
 }
 
 /* --- Empty Search State --- */
