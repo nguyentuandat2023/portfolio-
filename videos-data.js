@@ -919,35 +919,21 @@ window.PORTFOLIO_VIDEOS_DATA = [
   let currentVideoIndex = 0;
   let currentlyPlayingInlineId = null;
 
-  function checkProtocolNotice() {
-    if (window.location.protocol === 'file:') {
-      const toolbar = document.querySelector('.video-controls-toolbar');
-      let banner = document.getElementById('videoFileProtocolBanner');
-      if (toolbar && !banner) {
-        banner = document.createElement('div');
-        banner.id = 'videoFileProtocolBanner';
-        banner.className = 'video-protocol-banner';
-        const isVi = (localStorage.getItem('dat_portfolio_lang') || 'vi') === 'vi';
-        banner.innerHTML = `
-          <div class="vpb-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
-          <div class="vpb-content">
-            <h4>${isVi ? 'Khắc Phục Nhanh "Lỗi 153" Khi Xem Video Trực Tiếp:' : 'Fix YouTube "Configuration Error 153":'}</h4>
-            <p>${isVi ? 'YouTube yêu cầu mở trang web qua địa chỉ máy chủ (không hỗ trợ mở dưới dạng tệp <code>file://</code>). Để xem trực tiếp 43+ video mượt mà ngay trên trang web, bạn vui lòng nhấp đúp vào tệp <strong>1_MO_TRANG_WEB_PORTFOLIO.bat</strong> (tự động khởi chạy máy chủ nội bộ <code>http://localhost:8080</code>)!' : 'YouTube requires an HTTP web origin to play embedded videos. Please run <strong>1_MO_TRANG_WEB_PORTFOLIO.bat</strong> to open via <code>http://localhost:8080</code> for seamless inline playback.'}</p>
-          </div>
-          <div class="vpb-action">
-            <span class="vpb-pill"><i class="fa-solid fa-bolt"></i> ${isVi ? 'Mở bằng 1_MO_TRANG_WEB_PORTFOLIO.bat' : 'Open via 1_MO_TRANG_WEB_PORTFOLIO.bat'}</span>
-          </div>
-        `;
-        toolbar.parentNode.insertBefore(banner, toolbar);
-      }
-    }
+  // Auto-connect to local server if available when opened as file://
+  if (window.location.protocol === 'file:') {
+    try {
+      fetch('http://localhost:8080/index.html', { mode: 'no-cors' })
+        .then(() => {
+          window.location.replace('http://localhost:8080/' + (window.location.hash || ''));
+        })
+        .catch(() => {});
+    } catch(e) {}
   }
 
   function initVideoShowcase() {
     const videoGrid = document.getElementById('videoGrid');
     if (!videoGrid) return;
 
-    checkProtocolNotice();
     renderVideos();
     setupVideoFilters();
     setupVideoSearch();
@@ -1116,12 +1102,6 @@ window.PORTFOLIO_VIDEOS_DATA = [
       <button class="btn-close-inline-video" onclick="event.stopPropagation(); window.stopVideoInline('${v.id}')" title="${isVi ? 'Thu nhỏ / Dừng phát' : 'Stop & Close'}">
         <i class="fa-solid fa-xmark"></i>
       </button>
-      ${isFile ? `
-        <div class="file-protocol-hint">
-          <i class="fa-solid fa-triangle-exclamation"></i>
-          <span>${isVi ? 'Trình duyệt chặn phát video khi mở dạng file://. Hãy chạy <strong>1_MO_TRANG_WEB_PORTFOLIO.bat</strong> để phát trực tiếp ngay trên trang này mà không bị lỗi!' : 'Browser security blocks video on file://. Run <strong>1_MO_TRANG_WEB_PORTFOLIO.bat</strong> to play inline smoothly!'}</span>
-        </div>
-      ` : ''}
     `;
 
     // Update watch button text on this card
